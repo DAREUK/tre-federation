@@ -39,6 +39,8 @@ around the focus areas above and a spawning ground for Working Groups on particu
 areas.
 
 ## The HOW
+"We reject: kings, presidents, and voting. We believe in: rough consensus and running code."
+
 ### Participation/Collaboration:
 The group welcomes participants from service builders, research users,
 information governance professionals and data custodians from across the landscape.
