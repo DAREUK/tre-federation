@@ -41,20 +41,8 @@ All members of DARE UK community groups are expected to abide by the following c
     and the development of open and re-usable recommendations and outputs as part of the DARE UK
     programme is mandatory. All foreground IP generated through an interest or working group shall be
     shared as open source under a Massachusetts Institute of Technology (MIT) or other equivalent
-
-# DARE UK (Data and Analytics Research
-
-# Environments UK)
-
-## Interest Groups (IG) and Working Group (WG) Code of
-
-## Conduct
-
-
-```
-permissive licence. You can find some additional information from the Software Sustainability
-Institute1 and the Alan Turing Institute.
-```
+    permissive licence. You can find some additional information from the Software Sustainability
+    Institute1 and the Alan Turing Institute.
 - The “IETF principle” – DARE UK community groups adhere to the spirit of “rough consensus”
     (where a lack of disagreement is more important than agreement, and where all issues are
     addressed but not necessarily accommodated), looking to nucleate advances in small groups and
@@ -63,23 +51,23 @@ Institute1 and the Alan Turing Institute.
 
 ## 2. Meeting etiquette
 
-Join on time and come prepared
+### Join on time and come prepared
 
 Please be prompt in arriving to the meeting and in returning from breaks. Be prepared to contribute to
 achieving the meeting goals, please read any materials that are sent to you in advance and join the meeting
 with a positive and optimistic attitude.
 
-Contribute to the goals of the meeting
+### Contribute to the goals of the meeting
 
 Participate by listening, sharing ideas, asking questions, and contributing to discussions. Share your unique
 perspectives and experience and speak honestly and transparently. If you state a problem or disagree with
 a proposal, try to offer a solution.
 
-Stay on point
+### Stay on point
 
 Respect the groups’ time and keep comments relevant to the topics being discussed.
 
-Be courteous, respectful, and value the diversity of participants
+### Be courteous, respectful, and value the diversity of participants
 
 Honest and constructive conversations and written comments are encouraged and must be conducted
 respectfully without blame or judgement on an individual or organisation. Treat all meeting participants
@@ -105,8 +93,6 @@ following in a DARE UK context:
 
 We expect participants to follow these rules at all DARE UK affiliated meetings, workshops or events, on
 endorsed DARE UK online platforms, or when using associated social media identifiers of DARE UK (i.e.,
-
-
 social media handles: @DARE_UK1 on X (formerly Twitter) and DARE UK on LinkedIn and the hashtag
 #DAREUK).
 
@@ -126,21 +112,21 @@ appropriate. The DARE UK Director will be the ultimate arbiter.
 
 ## 5. Breach of the code of conduct
 
-Reporting a breach
+### Reporting a breach
 
 If you notice any violation of this DARE UK community groups Code of Conduct, please report this as soon
 as possible as below:
 
 - Contact the DARE UK Delivery Team, via email enquiries@dareuk.org.uk
 
-How reports are investigated
+### How reports are investigated
 
 Once a breach has been reported, the DARE UK Delivery Team along with the co-chairs of the involved
 interest or working group(s) will investigate the incident to determine the facts and come to a decision
 whether a breach has occurred. In the case of divergent views, the DARE UK Director will have the final
 decision.
 
-Action taken following breach of the Code of Conduct
+### Action taken following breach of the Code of Conduct
 
 Once a report of a breach has been investigated and it is deemed that a breach of the code of conduct has
 occurred, the following actions could be taken:
@@ -153,4 +139,8 @@ occurred, the following actions could be taken:
 The final decision for actions taken in the case of a breach lie with the DARE UK Director.
 
 ----
-v1.0
+
+| Date | Version | Notes |
+| ---- | ------- | ----- |
+| 04/02/2015     | v1.0  | |
+
