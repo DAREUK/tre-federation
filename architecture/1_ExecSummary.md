@@ -163,7 +163,7 @@ Services group comprises services for registry (of services, users, projects, et
 management and signing), management (of standard shared software), monitoring and accounting.
 
 
-
+![Figure 1](assets/images/TRE-diagrams.png)
 _Figure 1. Simplified architectural sketch of the Sensitive Data Research Infrastructure Federation. Trusted Research Environments are
 denoted “TRE”. TREs are divided logically into three internal zones: a Research Analytics Zone (RAZ), a Secure Data Zone (SDZ), and a
 Query Management Zone (QMZ). Not all zones need be present in any given TRE.“SS” = Security Server, a secure common gateway for all
