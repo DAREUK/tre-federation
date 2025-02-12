@@ -1,11 +1,10 @@
 # DARE UK Federated Architecture Blueprint - Part 1 (Executive Summary)
 
 
-```
-“All models are wrong, but some models are useful.”
+> “All models are wrong, but some models are useful.”
 
-George E.P. Box
-```
+- George E.P. Box
+
 
 
 ## 1. Overview
