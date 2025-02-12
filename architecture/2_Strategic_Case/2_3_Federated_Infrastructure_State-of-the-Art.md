@@ -1,3 +1,4 @@
+# DARE UK Federated Architecture Blueprint - Part 2 (Strategic Case)
 
 ## 3. Federated infrastructure: the state of the art
 
@@ -61,7 +62,8 @@ initiatives, alongside similar concepts from the proposed SDRI Federation archit
 
 During 2023 the DARE UK programme funded a portfolio of driver projects to explore potential
 technologies in this space, three of which in particular have a strong bearing on topics covered later in
-this blueprint. For an overview of these projects, see the DARE UK website^4.
+this blueprint. For an overview of these projects,
+see the [DARE UK website](https://dareuk.org.uk/our-work/phase-1-driver-projects/).
 
 **SATRE** [25] compared openly available UK TREs hosting health, manufacturing, commercial, science and
 humanities data and aligned them into a standardised TRE reference architecture. SATRE’s scope was
@@ -75,7 +77,8 @@ one of a small number of key application types that would run on top of the core
 applied the “job submission” approach to federated analytics also seen in OpenSAFELY [28] and
 numerous other solutions: request that a TRE download and run an analysis script developed “outside”
 the environment. TRE-FX developed a standard way to submit jobs that is “5 safes” compliant, and
-worked with partners from Bitfount^5 and DataSHIELD^6 to integrate these standards into their product
+worked with partners from [Bitfount](https://www.bitfount.com/) and 
+[DataSHIELD](https://datashield.org/) to integrate these standards into their product
 suites.
 
 **TELEPORT** [29] demonstrated how to offer a single query interface to users of a TRE that spans multiple
@@ -88,10 +91,6 @@ of TREs created virtually within a larger TRE infrastructure. By synchronising t
 overlapping governance “wrappers” defined by the TREs contributing data to the project in question,
 TELEPORT showed how federated querying can be made just as safe and secure as accessing data in a
 single location.
-
-(^4) DARE UK 2023 Driver Projects, https://dareuk.org.uk/our-work/phase- 1 - driver-projects/
-(^5) Bitfount federated AI and data science platform. See https://www.bitfount.com/
-(^6) DataSHIELD secure bioscience collaboration. See https://datashield.org/
 
 Two additional projects developed enhanced tooling for assessing disclosure risk in datasets at the
 beginning and the end of the research process.
@@ -107,7 +106,7 @@ monitoring: data provenance, describing the origins, actions performed and agent
 creation and transformation; and privacy assessment, minimising the risk of identifiable information in
 clinical free-text records (for example, GP letters and discharge summaries).
 
-The five driver projects mapped well onto version 1. _x_ of this blueprint but highlighted a missing
+The five driver projects mapped well onto version 1._x_ of this blueprint but highlighted a missing
 distinction between “direct query” and “indirect query” in approaches to federated analytics, and a
 missing synchronisation interface for the pop-up TRE model.
 
@@ -128,7 +127,7 @@ environment being revoked—or in the entire virtual pop-up TRE being “rapidly
 While this blueprint is concerned principally with connections _between_ TREs, and the SATRE specification
 [26] is concerned with what it is to be a TRE, the two naturally touch. This blueprint meets the SATRE
 specification where it should. A detailed mapping between the Federation requirements and SATRE
-specification statements can be found in the _Master Requirements Table_ , Appendix A of Part 3 (Use Cases).
+specification statements can be found in the _Master Requirements Table_, Appendix A of Part 3 (Use Cases).
 
 This new version of the federated architecture blueprint models these developments much more
 accurately than did version 1.

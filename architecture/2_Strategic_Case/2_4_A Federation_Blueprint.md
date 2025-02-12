@@ -1,3 +1,5 @@
+# DARE UK Federated Architecture Blueprint - Part 2 (Strategic Case)
+
 ## 4. A federation blueprint
 
 In the rest of this blueprint we describe a UK-wide federation of sensitive data research infrastructure—

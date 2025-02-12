@@ -24,14 +24,13 @@ common set of protocols and standards agreed by all
 participants enabling the “intelligent” exchange of data
 for research [5] and increasing the prospects of safe
 automation across the landscape. To enable the
-exchange of sensitive data—in particular public data—
-the federation must be trustworthy.
+exchange of sensitive data--in particular public data--the federation must be trustworthy.
 
 ----
 
-_The first, but not the last_
+ _The first, but not the last_ 
 
-In January 2024 the COALESCE consortium
+In January 2024 the [COALESCE consortium](https://www.ed.ac.uk/usher/eave-ii/connected-projects/coalesce/uk-first-whole-population-analysis)
 published the UK’s first whole-population
 analysis [4]. The study, of covid-19 under-
 vaccination and severe outcomes, was a
@@ -53,8 +52,6 @@ One key goal of a technical and
 organisational federation of the UK’s TREs is
 to make future studies like COALESCE much
 easier to conduct.
-
-[More information on the ground-breaking COALESCE study](https://www.ed.ac.uk/usher/eave-ii/connected-projects/coalesce/uk-first-whole-population-analysis)
 
 ----
 
@@ -135,6 +132,11 @@ These high-level data patterns give rise to number of requirements that we note 
 
 ### 2.2. Data pooling
 
+| Data pooling |
+| ---- | 
+| ![ ](../assets/images/use-case-patterns-Pattern_0a.drawio.png) |
+
+
 The data pooling pattern occurs more often in
 current use. Here datasets are often vertically
 partitioned and need to be linked together using a
@@ -168,6 +170,10 @@ designed with disclosure control in place and with careful governance oversight.
 
 #### 2.3.1. Direct query
 
+| Federated query: direct |
+| ---- | 
+| ![ ](../assets/images/use-case-patterns-Pattern_0b.drawio.png) |
+
 Of the two federated analytics patterns the direct query
 pattern is the simpler but covers the fewest concrete
 use-cases. Here, datasets (D 1 , D 2 and D 3 ) remain within
@@ -186,12 +192,16 @@ containing partial training results from a machine learning model needing additi
 in all cases it must be fully encapsulated in the Query Object as received by the data TREs.
 
 An example implementation of direct query can be found in the TELEPORT project [29]. TELEPORT uses
-the Trino SQL execution engine^2 to connect remote data sources within one TRE to a “single pane of
+the [Trino SQL execution engine](https://trino.io/) to connect remote data sources within one TRE to a “single pane of
 glass” user-view in another. To the research user, this has the appearance, and consequent utility, of a
 single database table, while behind the scenes queries and results are exchanged between participating
 TREs.
 
 #### 2.3.2. Indirect query
+
+| Federated query: indirect |
+| ---- | 
+| ![ ](../assets/images/use-case-patterns-Pattern_0c.drawio.png) |
 
 The indirect query pattern captures the use-cases
 seen in federated analytics using job submission: a
@@ -210,11 +220,10 @@ course, have the capability to handle the queries.
 As with direct query, responses are returned to the project but not necessarily synchronously: job
 responses may need to be disclosure checked before they are permitted to leave the data TRE.
 
-(^2) “Trino, a query engine that runs at ludicrous speed”. See https://trino.io/
-
 
 An example implementation that support both indirect and direct query can be found in the TRE-FX
-project [27]. TRE-FX uses the Hutch federated job execution software^3 , enabling researchers to request
+project [27]. TRE-FX uses the [Hutch federated job execution software](https://health-informatics-uon.github.io/hutch/),
+enabling researchers to request
 the execution of complex workflows within participating TREs. The workflows can either be fully
 encapsulated in the request object, mapping onto the direct query model, or be developed “out of band”
 by a researcher, uploaded to a trustworthy repository and then downloaded and screened for safety by
@@ -222,5 +231,4 @@ operators at participating TREs, each acting independently and in accordance wit
 and policies. In both cases TRE-FX uses the same standard approach for object exchange between TREs,
 the RO-Crate packaging format (cf. Part 4 (Components)).
 
-(^3) Hutch, a federated analytics execution agent. See https://health-informatics-uon.github.io/hutch/
 
