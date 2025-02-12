@@ -104,8 +104,10 @@ populations with common attributes.
 Partitioning vertically splits the attribute space for the whole population. Doing both creates the picture
 in Figure 1.
 
-![Figure 1](../assets/images/dataspace-Tabular_data.drawio.png)
-_Figure 1. Conceptual dataspace for DARE UK_
+
+| _Figure 1. Conceptual dataspace for DARE UK_ |
+| ---- | 
+| ![Figure 1](../assets/images/dataspace-Tabular_data.drawio.png) |
 
 
 The reality of data combination is much messier than this picture suggests, of course; nevertheless a
@@ -152,9 +154,8 @@ indexes.
 The federated analytics pattern works very well when data are horizontally partitioned but otherwise
 uniform (e.g., census data divided by region). It can be made to work when data are vertically partitioned,
 although it is technically more challenging to include the additional index service needed to make the join
-between the remotely calculated query results. In either use, the underpinning premise of the Federation
-
-- a trustworthy network between Participants – enables the exchange of queries and results in the
+between the remotely calculated query results. In either use, the underpinning premise of the Federation 
+-- a trustworthy network between Participants -– enables the exchange of queries and results in the
 context of an approved Project to happen without the need for “Federation-internal” disclosure control.
 All analytical queries and all results are maintained within the secured Federation network, and only move
 between TREs or other equivalently secured services.
