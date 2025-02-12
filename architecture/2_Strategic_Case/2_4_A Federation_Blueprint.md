@@ -80,24 +80,6 @@ follows a number of principles, closely aligned with the SATRE principles.
     network should be observable. (SATRE: Observability.)
 
 
-## 5. Summary
-
-That the proposed SDRI Federation architecture shares similarities with past, present and future
-approaches to connecting data safely and securely with analytical resources is no coincidence. Where
-trust is paramount the exchange of sensitive information between parties must be done in a controlled
-environment with a common rulebook agreed by all participants. Registry services are necessary to keep
-track of which services are currently participating, what their capabilities are, what datasets might be
-available and so on. Secure data exchange that provides the necessary levels of confidentiality, integrity
-and traceability is an essential foundation but should not unduly restrict the kinds of application that run
-on top. The common federation provides a well-managed and safe set of tracks; beyond ensuring that
-trains don’t crash into the wrong stations at the wrong times it has little to say about the rail services on
-top.
-
-
-##### V 2.2 FINAL
-
-**FOR CONSULTATION & COMMENT**
-
 ## 6. References
 
 [1] DARE UK (2023); _UK Sensitive Data Research Infrastructure: A Landscape Review_ ; Zenodo;

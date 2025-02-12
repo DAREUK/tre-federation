@@ -1,76 +1,14 @@
-# DARE UK: Federated Architecture Blueprint -
-
-## Part 1 (Executive Summary)
-
-Licence
-```
-This work © 2024 by HDR UK and other members of the DARE UK consortium is licensed under
-CC BY-NC-SA 4.
-```
-
- | Version | Date | Authors/Reviewers | Notes |
- | ------- | ---- | ----------------- | ----- |
- | 0.6 | 22/03/2023 | Rob Baxter  | First complete draft.
- | 0.7 | 31/03/2023 | Fergus McDonald, Hans-Erik Aronson  | DARE UK internal review. | 
- | 1.0 initial  | 13/04/2023  | Rob Baxter  | For publication and public comment. | 
- | 1.1  | 03/08/2023  | Rob Baxter  | Updated. Feedback until end June 2023 incorporated. | 
- | 1.2  | 11/08/2023  | Rob Baxter  | Version for internal review. | 
- | 1.3  | 15/08/2023  | Fergus McDonald, Emily Jefferson | DARE UK & HDR-UK internal review. | 
- | 1.4  | 25/08/2023  | Rob Baxter Updated.  | Greatly expanded Executive Summary. Version for internal review. | 
- | 1.5  | 04/10/2023  | Fergus McDonald, Emily Jefferson | DARE UK & HDR-UK internal review. | 
- | 1.6 interim | 18/10/2023  | Rob Baxter  | For broader circulation and comment. | 
- | 2.0 draft   | 11/12/2023  | Rob Baxter  | Incorporated revisions and lessons learned from Driver Projects and wider engagements. | 
- | 2.0A draft  | 12/12/2023  | Rob Baxter  | Incorporated review feedback from SACRO project PI. | 
- | 2.0B draft  | 08/01/2024  | Rob Baxter  | Incorporated review feedback from TRE-FX project PIs. | 
- | 2.0C draft  | 29/02/2024  | Fergus McDonald, Emily Jefferson | DARE UK & HDR-UK internal review. | 
- | 2.0D draft  | 28/03/2024  | Rob Baxter  | Final tidy-up, incorporating research use-cases from February 2024 workshop. | 
- | 2.0E draft  | 13/06/2024  | Fergus McDonald, Emily Jefferson, Carole Goble, Phil Quinlan, Simon Thompson | Partner review. | 
- | 2.0F draft  | 05/08/2024  | Rob Baxter, Heikki Lehväslaiho | Fixed error in Chapter 8, prototype descriptions. | 
- | 2.1 draft  | 30/08/2024  | Rob Baxter  | Restructuring across Chapters 2-4; realignment and rationalisation of user roles. | 
- | 2.1 Part 1..5  | 19/09/2024  | Rob Baxter  | Separation into multiple parts for release. | 
- | 2.2  | 31/10/2024  | Emily Jefferson  | DARE UK & HDR-UK internal review. | 
- | 2.2 final  | 11/11/2024  | DARE UK  | For release. | 
-
-
-## Contents
-
-- Document Control Contents
-- Contents
-- About document versions
-   - Acknowledgements
-- 1. How to read this document
-- 2. Overview
-- 3. The strategic case for federation
-- 4. Users and use-cases
-- 5. Federated architecture: infrastructure layer
-- 6. Federated architecture: data layer
-- 7. Federated architecture: organisational layer
-- 8. Development and delivery approach
-- 9. Summary and further work
-
-
-
-## 1. About document versions
-
-This document is Part 1 (Executive Summary) of the _Federated Architecture Blueprint_ for DARE UK. It
-defines a potential approach for an overall architecture for a network of sensitive data sources and secure
-analytical services in terms which are broadly—and deliberately— **technology neutral**. Choices of
-implementation technology are not dealt with here, nor are details of costs, benefits and delivery plan.
-
-This document covers architecture version 2. It refines the model of a federated network infrastructure
-from the “initial” and “interim” versions, builds further on the “data layer” and most significantly draws in
-lessons and learnings from the 2023 DARE UK Driver Project programme.
+# DARE UK Federated Architecture Blueprint - Part 1 (Executive Summary)
 
 
 ```
 “All models are wrong, but some models are useful.”
-```
-```
+
 George E.P. Box
 ```
 
 
-## 2. Overview
+## 1. Overview
 
 Research with sensitive data already happens in the UK, in pockets of good practice connected by ad hoc
 technical processes. Alongside “classic” sensitive data from health and government sources there is
@@ -81,7 +19,8 @@ researcher productivity.
 Analytics services for researchers working with sensitive data are typically—and increasingly—provided in
 trusted research environments (TREs), secure computer systems wrapped in information governance
 practices and processes modelled on the Five Safes approach developed by the Office for National
-Statistics (ONS^1 ). These cast the technical systems needed to support sensitive data research as one part
+Statistics ([ONS](https://www.ons.gov.uk/)). 
+These cast the technical systems needed to support sensitive data research as one part
 (the “safe setting”) of a broader set of procedures designed to manage risk and create an overall
 trustworthy environment.
 
@@ -114,13 +53,11 @@ metadata standards for a range of entities and concepts within the federation ne
 
 Governance of the overall Federation follows the same principles as the technical approach: augment
 what is already in place without disrupting it. We highlight the key relationships and accountabilities
-
-(^1) The UK Office for National Statistics, https://www.ons.gov.uk/
-
 within the proposed Federation, and introduce first ideas for the process-set necessary to govern a UK-
 wide federation for sensitive data research.
 
-## 3. The strategic case for federation
+
+## 2. [The strategic case for federation](../2_Strategic_Case/2_1_Introduction.md)
 
 The needs of independent information governance (for instance, between the four nations of the UK) and
 the practicalities of data movement in some cases (in large environmental datasets, for example) mean
@@ -137,7 +74,8 @@ In parallel with the development of this architecture the DARE UK programme has 
 projects”** , each of which explored possible technologies and tools that could be used in later
 implementation work. We summarise these briefly and describe their impact on version 2.0.
 
-## 4. Users and use-cases
+
+## 3. Users and use-cases
 
 We introduce **ten user personas** derived from hosted workshops in 2022 and 2023, representing
 archetypal users, from research through TRE service provision to data custodianship and including a
@@ -147,7 +85,8 @@ of requirements for TREs, data providers and the Federation itself.
 We observe that both current practice and future use will require an architecture that supports both the
 data pooling and federated analytics patterns.
 
-## 5. Federated architecture: infrastructure layer
+
+## 4. Federated architecture: infrastructure layer
 
 The picture below is a simplification of the detailed infrastructure diagram from Chapter 5 and illustrates
 the essence of the Federation.
@@ -162,12 +101,9 @@ Federation Services, Security Servers and connections together define the Federa
 Services group comprises services for registry (of services, users, projects, etc.), trust (security certificate
 management and signing), management (of standard shared software), monitoring and accounting.
 
-
-![Figure 1](assets/images/TRE-diagrams.png)
-_Figure 1. Simplified architectural sketch of the Sensitive Data Research Infrastructure Federation. Trusted Research Environments are
-denoted “TRE”. TREs are divided logically into three internal zones: a Research Analytics Zone (RAZ), a Secure Data Zone (SDZ), and a
-Query Management Zone (QMZ). Not all zones need be present in any given TRE.“SS” = Security Server, a secure common gateway for all
-inter-TRE traffic. “TRE-G”, TRE Governance, is shorthand for all those responsible for the security and integrity of running a TRE._
+| ![Figure 1](../assets/images/TRE-diagrams.png) |
+| ---- |
+| _Figure 1. Simplified architectural sketch of the Sensitive Data Research Infrastructure Federation. Trusted Research Environments are denoted “TRE”. TREs are divided logically into three internal zones: a Research Analytics Zone (RAZ), a Secure Data Zone (SDZ), and a Query Management Zone (QMZ). Not all zones need be present in any given TRE.“SS” = Security Server, a secure common gateway for all inter-TRE traffic. “TRE-G”, TRE Governance, is shorthand for all those responsible for the security and integrity of running a TRE._ |
 
 Different-coloured connections between Participants are shown, with the colours representing the
 different types of connections allowed within the Federation. Note that these connections run directly
@@ -208,7 +144,7 @@ every zone.
 We conclude this chapter with definitions of some additional key concepts, including **projects** , **identities**
 and **authorisation**.
 
-## 6. Federated architecture: data layer
+## 5. Federated architecture: data layer
 
 We provide a simple cross-comparison of current data classification schemes (e.g. GDPR, UK
 Government) mapped to a single seven-point scale which could be used as a standard designation across
@@ -234,11 +170,9 @@ Federation metadata: what the Federation actually _is_ , comprising:
     o Data Extract metadata: information about subsets or extracts of Datasets as used in
        Projects.
 
-
-(^2) Throughout, we use “TRE Governance” as a shorthand for the team of people charged with running a TRE,
+**NB** Throughout, we use “TRE Governance” as a shorthand for the team of people charged with running a TRE,
 including technical administrators, data analysts, statistical disclosure control experts and other information
 governance professionals.
-
 
 Where possible we illustrate these concepts with examples drawn from existing sources, notably the
 metadata records required of services seeking to acquire accreditation as data processors under the
@@ -270,7 +204,7 @@ incremental development of discovery and indexing services of increasing sophist
 For **reusability** we observe simply that reuse of sensitive data from one project in another is much more a
 governance question than a technical challenge.
 
-## 7. Federated architecture: organisational layer
+## 6. Federated architecture: organisational layer
 
 We note that the design of the operational model of the Federation must be **community-led** , and the
 organisational structures of the Federation must be comprised of the set, or an agreed core sub-set, of
@@ -280,25 +214,5 @@ We introduce the idea of a **Federation Authority** (FA) as an oversight body, a
 of delivering different aspects of the FA’s functions through **centralised** , **distributed** or **decentralised
 models**. We draw no conclusions but offer this up as a starting point for broader community dialogue.
 
-## 8. Development and delivery approach
-
-We observe that our separation of concerns into Federation foundation services on the one hand, and
-application-level services on the other leads to a two-speed approach to technology selection and
-development. Software for the foundation services should be selected from existing solutions already
-proven in operation (technology readiness level 9 in the standard industry jargon); it should NOT be
-commissioned from new research work.
-
-This encapsulation of essential security features in the foundation layer means that application services
-which run “on top” can be more innovative and even experimental without compromising overall
-Federation security.
-
-We sketch a number of **small pilot scenarios** which can build on each other to realise a running system
-which can be **scaled out incrementally** without the need for a single “big bang”.
-
-## 9. Summary and further work
-
-This blueprint is version 2. 2. How future versions may evolve is currently in planning and may change
-based on feedback from the community, stakeholders and/or DARE UK programme governance
-structures.
 
 
