@@ -28,7 +28,9 @@ exchange of sensitive data—in particular public data—
 the federation must be trustworthy.
 
 ----
+
 _The first, but not the last_
+
 In January 2024 the COALESCE consortium
 published the UK’s first whole-population
 analysis [4]. The study, of covid-19 under-
@@ -52,8 +54,8 @@ organisational federation of the UK’s TREs is
 to make future studies like COALESCE much
 easier to conduct.
 
-(^1) For more information on the ground-breaking COALESCE study, see https://www.ed.ac.uk/usher/eave-
-ii/connected-projects/coalesce/uk-first-whole-population-analysis
+[More information on the ground-breaking COALESCE study](https://www.ed.ac.uk/usher/eave-ii/connected-projects/coalesce/uk-first-whole-population-analysis)
+
 ----
 
 One aspect of the challenge we cannot ignore is that
@@ -102,7 +104,7 @@ populations with common attributes.
 Partitioning vertically splits the attribute space for the whole population. Doing both creates the picture
 in Figure 1.
 
-![Figure 1](assets/images/dataspace-Tabular_data.drawio.png)
+![Figure 1](../assets/images/dataspace-Tabular_data.drawio.png)
 _Figure 1. Conceptual dataspace for DARE UK_
 
 
