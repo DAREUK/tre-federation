@@ -1,6 +1,8 @@
-# DARE UK Federated Architecture Blueprint - Part 2 (Strategic Case)
+> DARE UK Federated Architecture Blueprint  v2.2
+----
 
-## 2. The federation challenge
+# Chapter 2 Strategic Case
+## The federation challenge
 
 While there are many ways to define “sensitive data”
 one important definition is “individual-level public
@@ -77,7 +79,7 @@ Using this approach we derive three essential use-cases:
 Since our interest is in the federation of TREs and data providers at the organisational level we do not
 consider the details of data provision to researchers within a TRE.
 
-### 2.1. Conceptual data space
+### Conceptual data space
 
 We can bring these ideas together into a conceptual data space where different kinds of dataset are
 divided across different regional data custodians. Each block in Figure 1 is conceptually held by a
@@ -151,7 +153,7 @@ identifiers, universal property reference numbers etc.
 and requires careful governance of both datasets and
 indexes.
 
-### 2.3. Federated analytics
+### Federated analytics
 
 The federated analytics pattern works very well when data are horizontally partitioned but otherwise
 uniform (e.g., census data divided by region). It can be made to work when data are vertically partitioned,
@@ -168,7 +170,7 @@ because this usage connects internal Federation queries to the outside world, Di
 designed with disclosure control in place and with careful governance oversight.
 
 
-#### 2.3.1. Direct query
+#### Direct query
 
 | Federated query: direct |
 | ---- | 
@@ -197,7 +199,7 @@ glass” user-view in another. To the research user, this has the appearance, an
 single database table, while behind the scenes queries and results are exchanged between participating
 TREs.
 
-#### 2.3.2. Indirect query
+#### Indirect query
 
 | Federated query: indirect |
 | ---- | 
@@ -223,7 +225,7 @@ responses may need to be disclosure checked before they are permitted to leave t
 
 An example implementation that support both indirect and direct query can be found in the TRE-FX
 project [27]. TRE-FX uses the [Hutch federated job execution software](https://health-informatics-uon.github.io/hutch/),
-enabling researchers to request
+enabling researchers to request 
 the execution of complex workflows within participating TREs. The workflows can either be fully
 encapsulated in the request object, mapping onto the direct query model, or be developed “out of band”
 by a researcher, uploaded to a trustworthy repository and then downloaded and screened for safety by

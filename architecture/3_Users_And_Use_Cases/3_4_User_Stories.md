@@ -1,6 +1,8 @@
-# DARE UK Federated Architecture Blueprint - Part 3 (Users and use-cases)
+> DARE UK Federated Architecture Blueprint  v2.2
+----
 
-## 3.3 User stories and requirements mapping
+# Chapter 3 Users and use-cases
+## User stories and requirements mapping
 
 Analysis of both data usage patterns and user personas has identified a number of key
 requirements for the overall federation and for individual services within it [2].

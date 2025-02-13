@@ -1,6 +1,8 @@
-# DARE UK Federated Architecture Blueprint - Part 2 (Strategic Case)
+> DARE UK Federated Architecture Blueprint  v2.2
+----
 
-## 3. Federated infrastructure: the state of the art
+# Chapter 2 Strategic Case
+## Federated infrastructure: the state of the art
 
 Infrastructure federations have been a staple of the UK research landscape since the early 2000s and the
 drivers of the UK e-Science Core Programme [8]. The World-wide LHC Compute Grid (WLCG [9]) and the
@@ -58,7 +60,7 @@ As noted, the proposed SiMPl architecture shares many common features with X-Roa
 GAIA-X; these four initiatives do collaborate at various levels. Appendix A provides a comparison of these
 initiatives, alongside similar concepts from the proposed SDRI Federation architecture.
 
-### 3.1. TRE federation proofs-of-concept: the DARE UK driver projects
+### TRE federation proofs-of-concept: the DARE UK driver projects
 
 During 2023 the DARE UK programme funded a portfolio of driver projects to explore potential
 technologies in this space, three of which in particular have a strong bearing on topics covered later in

@@ -1,16 +1,17 @@
-# DARE UK Federated Architecture Blueprint - Part 2 (Strategic Case)
+> DARE UK Federated Architecture Blueprint  v2.2
+----
 
-## 1. Introduction
+# Chapter 2 Strategic Case
+## Introduction
 
-```
-“The UK Research and Innovation DARE UK (Data and Analytics Research Environments UK)
+
+>“The UK Research and Innovation DARE UK (Data and Analytics Research Environments UK)
 programme has been established to design and deliver a coordinated and trustworthy national
 data research infrastructure to support research at scale for public good. DARE UK is a cross-
 domain programme—its scope covers all types of sensitive data, including data about education,
 health, the environment and much more.”
-DARE UK Phase 1 report: Paving the way for a coordinated national
-infrastructure for sensitive data research
-```
+
+ - DARE UK Phase 1 report: Paving the way for a coordinated national infrastructure for sensitive data research
 
 The DARE UK programme is built on the concept of a UK sensitive data research landscape which is
 fundamentally distributed, both in its sources of available data and in the analytical services able to
@@ -19,7 +20,7 @@ ebb and flow (see Appendix B _Scenario Analysis_ ) there is no likely future sce
 all compute services together in one location. To enable researchers to work with data linked from
 multiple sources, a federated digital research infrastructure is needed.
 
-### 1.1. DARE UK Phase 1 recommendations
+### DARE UK Phase 1 recommendations
 
 There are ten key recommendations from the DARE UK Phase 1 report [2] that shape our approach to a
 federated architecture for trusted research environments (TREs) across the UK, and two from the DARE

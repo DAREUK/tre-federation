@@ -1,6 +1,8 @@
-# DARE UK Federated Architecture Blueprint - Part 3 (Users and use-cases)
+> DARE UK Federated Architecture Blueprint  v2.2
+----
 
-## 3.2.	User personas
+# Chapter 3 Users and use-cases
+## User personas
 
 DARE UK has worked with relevant community groups across the UK to develop user personas to represent classes of users. Personas give voice and motivation to the abstract “actors” used later in our system architecture and consequently are a better source of genuine use-cases. In particular, a persona’s needs and motivations can be a better tool to identify non-functional requirements (how safely? how quickly?) than abstract system roles. 
 

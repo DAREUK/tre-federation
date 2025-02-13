@@ -1,13 +1,13 @@
-# DARE UK Federated Architecture Blueprint - Part 1 (Executive Summary)
+> DARE UK Federated Architecture Blueprint  v2.2
+----
 
+# Chapter 1 Executive Summary
 
 > “All models are wrong, but some models are useful.”
-
 - George E.P. Box
 
 
-
-## 1. Overview
+##  Overview
 
 Research with sensitive data already happens in the UK, in pockets of good practice connected by ad hoc
 technical processes. Alongside “classic” sensitive data from health and government sources there is
@@ -74,7 +74,7 @@ projects”** , each of which explored possible technologies and tools that coul
 implementation work. We summarise these briefly and describe their impact on version 2.0.
 
 
-## 3. Users and use-cases
+## 3. [Users and use-cases](../3_Users_And_Use_Cases/3_1_Introduction.md)
 
 We introduce **ten user personas** derived from hosted workshops in 2022 and 2023, representing
 archetypal users, from research through TRE service provision to data custodianship and including a
