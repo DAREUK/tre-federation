@@ -21,7 +21,7 @@ Data Extract Objects are designated “SDC Red” in the architecture, meaning t
 
 Index Objects are exchanged by TRE Data Managers and Index Services via Index interface services. Index Objects do not contain sensitive data but could be said to contain “sensitive metadata”. Indexing individuals means that Index Objects will contain lists of personal identifiers and their exchange must be governed accordingly.
 
-Index Objects are needed for certain kinds of data linkage. See [Data Linkage](#) for a fuller treatment. 
+Index Objects are needed for certain kinds of data linkage. See [Data Linkage](../5_Data_Layer/5_5_Data_Interoperability.md) for a fuller treatment. 
 
 ### Query Object
 

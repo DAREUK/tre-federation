@@ -7,7 +7,7 @@
 
 A Job Submission Service combines the inward-outward facing nature of a Discovery Service with the indirect query capability of an RAZ. Job Submission Services are Federation Participants in their own rights, independent of any one TRE.
 
-| [![Index service](../assets/images/federation-2-TRE_Federation_Elements_JSS.jpg)](../assets/images/federation-2-TRE_Federation_Elements_JSS.jpg) |
+| [![Job submission service](../assets/images/federation-2-TRE_Federation_Elements_JSS.jpg)](../assets/images/federation-2-TRE_Federation_Elements_JSS.jpg) |
 | ---- |
 
 A Job Submission Service receives job requests from Job Submitters. These requests may need to be approved before being executed and so MUST pass through a Job Approval process overseen by a Job Approver role.

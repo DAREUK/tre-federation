@@ -7,7 +7,7 @@
 
 A Discovery Service provides information (metadata) about features of the Federation to users outside the Federation. It may achieve this by querying the Registry or other services within the Federation. 
 
-| [![Index service](../assets/images/federation-2-TRE_Federation_Elements_DS.jpg)](../assets/images/federation-2-TRE_Federation_Elements_DS.jpg) |
+| [![Discovery service](../assets/images/federation-2-TRE_Federation_Elements_DS.jpg)](../assets/images/federation-2-TRE_Federation_Elements_DS.jpg) |
 | ---- |
 
 The Federation may include many Discovery Services, perhaps specialising in different kinds of data.
