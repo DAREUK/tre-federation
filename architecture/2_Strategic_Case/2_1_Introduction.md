@@ -15,20 +15,22 @@ health, the environment and much more.”
 
 The DARE UK programme is built on the concept of a UK sensitive data research landscape which is
 fundamentally distributed, both in its sources of available data and in the analytical services able to
-process them [1]. While the numbers and locations of data sources and services within this landscape will
-ebb and flow (see Appendix B _Scenario Analysis_ ) there is no likely future scenario which brings all data and
+process them [[1]](../References.md#ref-1). 
+While the numbers and locations of data sources and services within this landscape will
+ebb and flow (see [Appendix C _Scenario Analysis_](../7_Appendices/Appendix_C.md)) there is 
+no likely future scenario which brings all data and
 all compute services together in one location. To enable researchers to work with data linked from
 multiple sources, a federated digital research infrastructure is needed.
 
 ### DARE UK Phase 1 recommendations
 
-There are ten key recommendations from the DARE UK Phase 1 report [2] that shape our approach to a
-federated architecture for trusted research environments (TREs) across the UK, and two from the DARE
-UK 2022 public dialogue [3].
+There are ten key recommendations from the DARE UK Phase 1 report [[2]](../References.md#ref-2) that 
+shape our approach to a federated architecture for trusted research environments (TREs) across the UK, 
+and two from the DARE UK 2022 public dialogue [[3]](../References.md#ref-3).
 
 **Data and discovery**
 
-From [2]:
+From [[2]](../References.md#ref-2):
 
 1. Enhance the data lifecycle to support effective cross-domain sensitive data research.
 2. Explore the implications of new data types on approaches to making these data available for
@@ -40,7 +42,7 @@ From [2]:
 
 **Core federation services**
 
-From [2]:
+From [[2]](../References.md#ref-2):
 
 1. Develop reference architecture(s) for TREs.
 2. Assemble an API (application programming interface) library to support core federation services.
@@ -50,14 +52,14 @@ From [2]:
 
 **Capability and capacity**
 
-From [2]:
+From [[2]](../References.md#ref-2):
 
 4. Use automation to ensure data research infrastructure services are reliably secure, auditable and
     reproducible.
 
 **Public engagement and dialogue**
 
-From [3]:
+From [[3]](../References.md#ref-3):
 
 4. The processes and systems supporting data research across the UK should be unified in their
     approaches where possible.

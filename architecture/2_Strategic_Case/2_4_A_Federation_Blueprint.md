@@ -10,7 +10,8 @@ standards for secure data exchange, on top of which is built a rich set of appli
 standards to support different analytical use-cases—federated analytics, data pooling, federated machine
 learning or something else. It starts from where we are—an existing ecosystem of largely independent
 TREs—and builds on the ideas of federation touched on in the 2020 Health Data Research Alliance Green
-Paper on TREs [6] and expanded in a companion paper from 2021 [7].
+Paper on TREs [[6]](../References.md#ref-6) and expanded in a companion paper 
+from 2021 [[7]](../References.md#ref-7).
 
 The low-level protocols and standards would define, at a purely technical level, what it means to join the
 Federation—chapter one of its “rulebook”, if you will. Other rules of engagement should, in time, come to
@@ -55,26 +56,27 @@ DARE UK’s approach to the design and build of a federated network for research
 follows a number of principles, closely aligned with the SATRE principles.
 
 1. Public trust first, last and always. The strongest design voice should come from the “public
-    persona”. (SATRE: Maintaining public trust.)
-2. No TRE, no data. Reinforcing a recommendation from the Goldacre Review [33], require that any
-    and all analysis of sensitive data take place within a TRE, and design accordingly. (SATRE:
-    Maintaining public trust.)
+   persona”. (SATRE: Maintaining public trust.)
+2. No TRE, no data. Reinforcing a recommendation from the Goldacre Review [[33]](../References.md#ref-33), 
+   require that any and all analysis of sensitive data take place within a TRE, and design accordingly.
+   (SATRE: Maintaining public trust.)
 3. Start from where we are. Much of the service ecosystem already exists. Our blueprint must arise
-    through co-design with existing and emerging practitioners.
+   through co-design with existing and emerging practitioners.
 4. Five Safes are better than one. Secure infrastructure is only one aspect of a TRE. Adopt the Five
-    Safes framework [34] as a guiding principle. Processes and governance are as important as
-    infrastructure, and infrastructure choices should reflect this. (SATRE: Maintaining public trust.)
+   Safes framework [[34]](../References.md#ref-34) as a guiding principle. 
+   Processes and governance are as important as infrastructure, and infrastructure choices 
+   should reflect this. (SATRE: Maintaining public trust.)
 5. Separation of concerns. Different system actors have very different “security clearances”. Their
-    interactions should be segregated from one another as far as possible.
+   interactions should be segregated from one another as far as possible.
 6. An open-standards-based ecosystem. We seek a rich ecosystem of varied services interoperating
-    through agreed standards. (SATRE: Standardisation.)
+   through agreed standards. (SATRE: Standardisation.)
 7. Be as FAIR as possible. Findability, accessibility, interoperability and reusability are excellent
-    qualities to maintain even in a sensitive data environment [37]. (SATRE: Usability.)
-8. The “IETF principle” [38]: rough consensus and running code over rigid specifications and
-    monolithic stacks. Nucleate advances in small groups and grow outwards.
+   qualities to maintain even in a sensitive data environment [37]. (SATRE: Usability.)
+8. The “IETF principle” [[38]](../References.md#ref-38): rough consensus and running code 
+   over rigid specifications and monolithic stacks. Nucleate advances in small groups and grow outwards.
 9. Open source first. Seek as often as possible to avoid proprietary lock-in. Strictly, the scope of this
-    principle is that of the networked components defining the federation core. Beyond this core
-    scope, “open standards” (principle 6) is the better arbiter. (SATRE: Standardisation.)
+   principle is that of the networked components defining the federation core. Beyond this core
+   scope, “open standards” (principle 6) is the better arbiter. (SATRE: Standardisation.)
 10. Low barriers. Strive to reduce barriers for researchers and for data providers. (SATRE: Usability.)
 11. Observability. Human initiated and automated processes resulting in change within the TRE
     network should be observable. (SATRE: Observability.)

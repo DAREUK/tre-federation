@@ -5,7 +5,8 @@
 ## The federation challenge
 
 While there are many ways to define “sensitive data” one important definition is “individual-level public
-data”, and particularly individual-level data defined as “special category” under the UK GDPR [36] (electronic
+data”, and particularly individual-level data defined as “special category” under the 
+UK GDPR [[36]](../References.md#ref-36) (electronic
 health records, for example). The UK has rich sets of data about its citizens, both collected routinely
 through citizens’ interactions with government, health bodies and other administrative centres, and collected
 voluntarily through clinical trials, survey responses and so on. Making these data available for research at
@@ -15,15 +16,15 @@ heart.
 
 The need to connect distributed data and distributed analytics services requires a federated approach: a
 common set of protocols and standards agreed by all participants enabling the “intelligent” exchange of data
-for research [5] and increasing the prospects of safe automation across the landscape. To enable the
-exchange of sensitive data--in particular public data--the federation must be trustworthy.
+for research [[5]](../References.md#ref-5) and increasing the prospects of safe automation across the landscape. 
+To enable the exchange of sensitive data--in particular public data--the federation must be trustworthy.
 
 ----
 
 >  _The first, but not the last_ 
 >
 > In January 2024 the [COALESCE consortium](https://www.ed.ac.uk/usher/eave-ii/connected-projects/coalesce/uk-first-whole-population-analysis)
-published the UK’s first whole-population analysis [4]. The study, of covid-19 under-
+published the UK’s first whole-population analysis [[4]](../References.md#ref-4). The study, of covid-19 under-
 vaccination and severe outcomes, was a meta-analysis across the separate,
 independent TREs of the UK’s four nations: the NHS England Secure Data Environment,
 the Scottish National Safe Haven, the SAIL Databank in Wales and the Northern Ireland
@@ -154,11 +155,11 @@ external software is needed by the data TREs to execute the query. The actual qu
 learning model needing additional disclosure checks, but in all cases it must be fully encapsulated in 
 the Query Object as received by the data TREs.
 
-An example implementation of direct query can be found in the TELEPORT project [29]. TELEPORT uses
-the [Trino SQL execution engine](https://trino.io/) to connect remote data sources within one TRE to a “single pane of
-glass” user-view in another. To the research user, this has the appearance, and consequent utility, of a
-single database table, while behind the scenes queries and results are exchanged between participating
-TREs.
+An example implementation of direct query can be found in the TELEPORT project [[29]](../References.md#ref-29). 
+TELEPORT uses the [Trino SQL execution engine](https://trino.io/) to connect remote data sources within 
+one TRE to a “single pane of glass” user-view in another. To the research user, this has the appearance, 
+and consequent utility, of a single database table, while behind the scenes queries and results are 
+exchanged between participating TREs.
 
 #### Indirect query
 
@@ -178,7 +179,7 @@ responses may need to be disclosure checked before they are permitted to leave t
 
 
 An example implementation that support both indirect and direct query can be found in the TRE-FX
-project [27]. TRE-FX uses the
+project [[27]](../References.md#ref-27). TRE-FX uses the
 [Hutch federated job execution software](https://health-informatics-uon.github.io/hutch/),
 enabling researchers to request 
 the execution of complex workflows within participating TREs. The workflows can either be fully
@@ -186,6 +187,6 @@ encapsulated in the request object, mapping onto the direct query model, or be d
 by a researcher, uploaded to a trustworthy repository and then downloaded and screened for safety by
 operators at participating TREs, each acting independently and in accordance with their own risk profiles
 and policies. In both cases TRE-FX uses the same standard approach for object exchange between TREs,
-the RO-Crate packaging format (cf. Part 4 (Components)).
+the RO-Crate packaging format (cf. [federation metadata](../5_Data_Layer/5_2_Federation_Metadata.md)).
 
 
