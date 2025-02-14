@@ -6,7 +6,7 @@
 
 How could the Federation Authority be realised?
 
-Chapter 3 of the “IDSA Rulebook” [54] on the creation and operation of data spaces, published by the International Data Spaces Association, offers a good discussion of the pros and cons of centralised vs de-centralised models of federated governance for Data Spaces. We adapt that discussion here for the SDRI Federation.
+Chapter 3 of the “IDSA Rulebook” [[54]](../References.md#ref-54) on the creation and operation of data spaces, published by the International Data Spaces Association, offers a good discussion of the pros and cons of centralised vs de-centralised models of federated governance for Data Spaces. We adapt that discussion here for the SDRI Federation.
 
 One way to group the key services required of an FA is as follows:
  * Rules & Policies – underpinning agreements about what joining the Federation means, and technical implementations of them that enable digital handling.
@@ -43,7 +43,7 @@ These models are not exclusive. Different models can be used for the different s
 
 It’s worth highlighting that the choice of model here impacts only the control plane of the Federation. Data exchange connections between Participants are the same in each case – direct and point-to-point. The functions of the control plane determine only how the connection is made, not where it goes.
 
-Following [54], the figure below shows the three organisational models on a single radar diagram against axes representing six desirable properties.
+Following [[54]](../References.md#ref-54), the figure below shows the three organisational models on a single radar diagram against axes representing six desirable properties.
 
  * **Sovereignty.** The first goal of the Federation is to improve data sharing for research while maintaining, or even enhancing, sovereignty for data providers. Sovereignty is partly a function of autonomy, trust and transparency: is the decision to share this dataset mine? Do I trust the recipient I’m sharing with? Do I retain sight of where and how my dataset is being used? In our use of the term, sovereignty sits with Federation Participants, particularly data providers, in contrast to “control” below.
  * **Resilience.** Resilience is the ability of the overall Federation ecosystem to continue functioning in the event of unforeseen problems, such as the failure of a service node.

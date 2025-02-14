@@ -30,7 +30,8 @@ Elements:
 ## Francis Crick Institute federation model
 
 Reference: 
- * The Francis Crick Institute, Trusted Research Environments – federating data to complete research [55].
+ * The Francis Crick Institute, Trusted Research Environments – federating data to 
+   complete research [[55]](../References.md#ref-55).
 
 Features:
  * TRE federation realised dynamically on a per-project basis.
@@ -39,7 +40,7 @@ Features:
 
 Elements:
  * TRE “c” (upper right), acting purely as an analytical project environment, presenting a view of remote data to project members.
- * SDE “b” (lower right) (“secure data environment”, a “static data TRE” in [1]), acting purely as a data provider with a remote presentation of data to TRE “c”.
+ * SDE “b” (lower right) (“secure data environment”, a “static data TRE” in [[1]](../References.md#ref-1)), acting purely as a data provider with a remote presentation of data to TRE “c”.
  * SDE “a” (left), acting purely as a data provider with a remote presentation of data to TRE “c”.
  * Other project-specific SDEs (not illustrated in full).
  * Federation between these elements on a per-project basis.
@@ -50,7 +51,7 @@ Elements:
 ## OpenSAFELY
 
 Reference:
- * OpenSAFELY, The OpenSAFELY Secure Analytics Platform [28] and particularly https://docs.opensafely.org/images/c4-container.svg 
+ * OpenSAFELY, The OpenSAFELY Secure Analytics Platform [[28]](../References.md#ref-28) and particularly https://docs.opensafely.org/images/c4-container.svg 
 
 Features:
  * Indirect query model.
@@ -69,7 +70,7 @@ Elements:
 ## TELEPORT federation with pop-up TREs
 
 Reference:
- * C. Orton, et al. TELEPORT: Connecting Researchers to Big Data at Light Speed [29].
+ * C. Orton, et al. TELEPORT: Connecting Researchers to Big Data at Light Speed [[29]](../References.md#ref-29).
 
 Features:
  * Direct query model using polystore presentation.
@@ -88,7 +89,7 @@ Elements:
 ## TRE-FX federation with stand-alone job submission
 
 References:
- * T. Giles, et al. TRE-FX: Delivering a Federated Network of Trusted Research Environments to Enable Safe Data Analytics [27].
+ * T. Giles, et al. TRE-FX: Delivering a Federated Network of Trusted Research Environments to Enable Safe Data Analytics [[27]](../References.md#ref-27).
  * T. Giles, et al, [TRE-FX primary implementation report](https://docs.google.com/document/d/1FxrwXoYjx5aUI3MQyrnHs7xigvATJMEn/)
 
 Features:
@@ -110,7 +111,7 @@ Elements:
 ## TRE-FX federation with TRE-hosted job submission
 
 References:
- * T. Giles, et al. TRE-FX: Delivering a Federated Network of Trusted Research Environments to Enable Safe Data Analytics [27].
+ * T. Giles, et al. TRE-FX: Delivering a Federated Network of Trusted Research Environments to Enable Safe Data Analytics [[27]](../References.md#ref-27).
  * T. Giles, et al, [TRE-FX primary implementation report](https://docs.google.com/document/d/1FxrwXoYjx5aUI3MQyrnHs7xigvATJMEn/)
 
 Features:

@@ -3,7 +3,8 @@
 
 # Appendix C. Scenario analysis of the federated landscape
 
-The 2023 DARE UK survey and review of sensitive data research infrastructure [1] reveals a fragmented
+The 2023 DARE UK survey and review of sensitive data research infrastructure [[1]](../References.md#ref-1) 
+reveals a fragmented
 and rapidly changing landscape of data and service providers. The changeability is driven in part by a
 desire to build on the research and data sharing successes of the UK’s response to covid-19, but what
 form the landscape will finally take is hard to predict. A federated network of trusted research
@@ -14,19 +15,21 @@ thinking” approach.
 Initial thinking pulls up two principal external “landscape drivers”: the number of TREs and their
 capabilities; and the mobility of data.
 
-1. The number and capabilities of TREs. The Goldacre review [33] argues for a small number of
-    highly capable TREs; the current landscape has a fairly large number of TREs. Some of these are
-    large and capable, supporting national and regional research projects; many more are smaller and
-    support smaller university groups, individual clinical trials and so on. Assuming that there is one
-    overall budget for TRE provision across the UK, larger numbers could mean each has limited
-    capability, and vice versa.
+1. The number and capabilities of TREs. The Goldacre review [[33]](../References.md#ref-33) argues
+   for a small number of
+   highly capable TREs; the current landscape has a fairly large number of TREs. Some of these are
+   large and capable, supporting national and regional research projects; many more are smaller and
+   support smaller university groups, individual clinical trials and so on. Assuming that there is one
+   overall budget for TRE provision across the UK, larger numbers could mean each has limited
+   capability, and vice versa.
 2. Mobility of data. Governance concerns and consequential risk management approaches currently
-    keep data close to home, tightly controlled with a data controller or data custodian. The increasing
-    volumes of certain kinds of data (e.g., medical images, genomic data) also make it increasingly
-    difficult to move them around. To mitigate the first of these concerns UK Government has
-    consulted on possible changes to the Data Protection Act 2018 [35] and the UK GDPR [36],
-    perhaps creating governance counter-pressures towards more mobile data. Note that this doesn’t
-    address the “gravity” around very large datasets (see below).
+   keep data close to home, tightly controlled with a data controller or data custodian. The increasing
+   volumes of certain kinds of data (e.g., medical images, genomic data) also make it increasingly
+   difficult to move them around. To mitigate the first of these concerns UK Government has
+   consulted on possible changes to the Data Protection Act 2018 [[35]](../References.md#ref-35) 
+   and the UK GDPR [[36]](../References.md#ref-36),
+   perhaps creating governance counter-pressures towards more mobile data. Note that this doesn’t
+   address the “gravity” around very large datasets (see below).
 
 ## Four quadrants
 

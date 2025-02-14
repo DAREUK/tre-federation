@@ -3,10 +3,13 @@
 
 # Appendix A. A comparison of contemporary federated data architectures
 
-Annex III of the _Recommendation Report_ for the EU Smart Middleware Platform (SiMPl) [23] compares the
-concepts defined in the SiMPl architecture with those defined in the GAIA-X framework [21]. The table
+Annex III of the _Recommendation Report_ for the EU Smart Middleware Platform 
+(SiMPl) [[23]](../References.md#ref-23) compares the concepts defined in the SiMPl architecture 
+with those defined in the GAIA-X framework [[21]](../References.md#ref-21). The table
 below extends this idea to include the concepts defined in this document and the equivalents from both
-the IDSA reference architecture model (version 3.) [22] and the X-Road architecture [17].
+the IDSA reference architecture model (version 3.) [[22]](../References.md#ref-22) 
+and the X-Road architecture [[17]](../References.md#ref-17).
+
 
 | DARE UK | GAIA-X | SiMPl | IDSA | X-Road | Notes |
 | ------- | ------ | ----- | ---- | ------ | ----- |
