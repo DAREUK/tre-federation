@@ -1,4 +1,4 @@
-> DARE UK Federated Architecture Blueprint  v2.2
+> [DARE UK Federated Architecture Blueprint](../)  v2.2
 ----
 
 # Chapter 1 Executive Summary
@@ -85,9 +85,9 @@ We observe that both current practice and future use will require an architectur
 data pooling and federated analytics patterns.
 
 
-## 4. Federated architecture: infrastructure layer
+## 4. [Federated architecture: infrastructure layer](4_Infrastructure_Layer/4_1_Introduction.md)
 
-The picture below is a simplification of the detailed infrastructure diagram from Chapter 5 and illustrates
+The picture below is a simplification of the detailed infrastructure diagram from Chapter 4 and illustrates
 the essence of the Federation.
 
 Federation Participants are shown in blue: TREs and supporting services. We show two **TREs** , two
@@ -143,7 +143,7 @@ every zone.
 We conclude this chapter with definitions of some additional key concepts, including **projects** , **identities**
 and **authorisation**.
 
-## 5. Federated architecture: data layer
+## 5. [Federated architecture: data layer](5_Data_Layer/5_1_Introduction.md)
 
 We provide a simple cross-comparison of current data classification schemes (e.g. GDPR, UK
 Government) mapped to a single seven-point scale which could be used as a standard designation across
@@ -203,7 +203,7 @@ incremental development of discovery and indexing services of increasing sophist
 For **reusability** we observe simply that reuse of sensitive data from one project in another is much more a
 governance question than a technical challenge.
 
-## 6. Federated architecture: organisational layer
+## 6. [Federated architecture: organisational layer](6_Organisational_Layer/6_1_Introduction.md)
 
 We note that the design of the operational model of the Federation must be **community-led** , and the
 organisational structures of the Federation must be comprised of the set, or an agreed core sub-set, of
@@ -213,5 +213,6 @@ We introduce the idea of a **Federation Authority** (FA) as an oversight body, a
 of delivering different aspects of the FA’s functions through **centralised** , **distributed** or **decentralised
 models**. We draw no conclusions but offer this up as a starting point for broader community dialogue.
 
+----
 
 
