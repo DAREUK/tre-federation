@@ -71,7 +71,7 @@ follows a number of principles, closely aligned with the SATRE principles.
 6. An open-standards-based ecosystem. We seek a rich ecosystem of varied services interoperating
    through agreed standards. (SATRE: Standardisation.)
 7. Be as FAIR as possible. Findability, accessibility, interoperability and reusability are excellent
-   qualities to maintain even in a sensitive data environment [37]. (SATRE: Usability.)
+   qualities to maintain even in a sensitive data environment [[37]](../References.md#ref-37). (SATRE: Usability.)
 8. The “IETF principle” [[38]](../References.md#ref-38): rough consensus and running code 
    over rigid specifications and monolithic stacks. Nucleate advances in small groups and grow outwards.
 9. Open source first. Seek as often as possible to avoid proprietary lock-in. Strictly, the scope of this
