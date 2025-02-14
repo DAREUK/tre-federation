@@ -1,6 +1,7 @@
-# DARE UK Federated Architecture Blueprint 
+> DARE UK Federated Architecture Blueprint  v2.2
+----
 
-## Appendix A. A comparison of contemporary federated data architectures
+# Appendix A. A comparison of contemporary federated data architectures
 
 Annex III of the _Recommendation Report_ for the EU Smart Middleware Platform (SiMPl) [23] compares the
 concepts defined in the SiMPl architecture with those defined in the GAIA-X framework [21]. The table

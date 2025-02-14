@@ -1,6 +1,7 @@
-# DARE UK Federated Architecture Blueprint
+> DARE UK Federated Architecture Blueprint  v2.2
+----
 
-## References
+# References
 
 <a name="ref-1"></a>
 1. DARE UK (2023); _UK Sensitive Data Research Infrastructure: A Landscape Review_ ; Zenodo; 
