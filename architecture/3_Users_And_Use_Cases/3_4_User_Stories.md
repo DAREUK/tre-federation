@@ -5,7 +5,7 @@
 ## User stories and requirements mapping
 
 Analysis of both data usage patterns and user personas has identified a number of key
-requirements for the overall federation and for individual services within it [2].
+requirements for the overall federation and for individual services within it [[2]](../References.md#ref-2).
 Some of these requirements are functional use-cases, more are non-
 functional constraints, and many are higher level “user stories” to be followed up in later
 development stages.
@@ -18,7 +18,7 @@ Below we list the user stories derived from our personas, ordered by the “most
 have incorporated a number of genuine, current cross-domain research projects as
 motivations for our “Researcher” personas. These were generated in a workshop held in
 February 2024 which brought together more than 50 UK based researchers and public
-participants to surface use cases for linking sensitive data [32].
+participants to surface use cases for linking sensitive data [[32]](../References.md#ref-32).
 These examples provide useful first insight into the spread of data types in use in research
 projects today, and are recorded from use-case U42 onwards. We have assigned them as
 closely as possible to one of our four researcher personas, and we note the types of data
