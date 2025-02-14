@@ -1,4 +1,4 @@
-> DARE UK Federated Architecture Blueprint  v2.2
+> [DARE UK Federated Architecture Blueprint](../)  v2.2
 ----
 
 # Chapter 2 Strategic Case
@@ -71,3 +71,7 @@ and 5, the public view that trustworthiness will derive in no small part from st
 processes and systems, where feasible. These concepts sit at the heart of our proposed approach of a
 common federation for sensitive data research infrastructure.
 
+----
+
+| [< Up](../) | - | [The Federation Challenge >](2_2_The_Federation_Challenge.md) |
+| ---- | ---- | ---- |

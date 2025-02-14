@@ -1,4 +1,4 @@
-> DARE UK Federated Architecture Blueprint  v2.2
+> [DARE UK Federated Architecture Blueprint](../)  v2.2
 ----
 
 # Chapter 2 Strategic Case
@@ -189,4 +189,7 @@ operators at participating TREs, each acting independently and in accordance wit
 and policies. In both cases TRE-FX uses the same standard approach for object exchange between TREs,
 the RO-Crate packaging format (cf. [federation metadata](../5_Data_Layer/5_2_Federation_Metadata.md)).
 
+----
 
+| [< Introduction](2_1_Introduction.md) | - | [Federated Infrastructure: the State-of-the-Art >](2_3_Federated_Infrastructure_State-of-the-Art.md) |
+| ---- | ---- | ---- |

@@ -1,4 +1,4 @@
-> DARE UK Federated Architecture Blueprint  v2.2
+> [DARE UK Federated Architecture Blueprint](../)  v2.2
 ----
 
 # Chapter 2 Strategic Case
@@ -151,3 +151,7 @@ in the Master Requirements Table in [Appendix D](../7_Appendices/Appendix_D.md).
 This new version of the federated architecture blueprint models these developments much more
 accurately than did version 1.
 
+----
+
+| [< The Federation Challenge](2_2_The_Federation_Challenge.md) | - | [A Federation Blueprint >](2_4_A_Federation_Blueprint.md) |
+| ---- | ---- | ---- |

@@ -1,5 +1,7 @@
-# DARE UK Federated Architecture Blueprint - Part 2 (Strategic Case)
+> [DARE UK Federated Architecture Blueprint](../)  v2.2
+----
 
+# Chapter 2 Strategic Case
 ## A federation blueprint
 
 In the rest of this blueprint we describe a UK-wide federation of sensitive data research infrastructure—
@@ -81,4 +83,7 @@ follows a number of principles, closely aligned with the SATRE principles.
 11. Observability. Human initiated and automated processes resulting in change within the TRE
     network should be observable. (SATRE: Observability.)
 
+----
 
+| [< Federated Infrastructure: the State-of-the-Art](2_3_Federated_Infrastructure_State-of-the-Art.md) | | [Up >](../) |
+| ---- | ---- | ---- |
