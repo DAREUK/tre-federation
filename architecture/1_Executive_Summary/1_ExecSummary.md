@@ -85,7 +85,7 @@ We observe that both current practice and future use will require an architectur
 data pooling and federated analytics patterns.
 
 
-## 4. [Federated architecture: infrastructure layer](4_Infrastructure_Layer/4_1_Introduction.md)
+## 4. [Federated architecture: infrastructure layer](../4_Infrastructure_Layer/4_1_Introduction.md)
 
 The picture below is a simplification of the detailed infrastructure diagram from Chapter 4 and illustrates
 the essence of the Federation.
@@ -143,7 +143,7 @@ every zone.
 We conclude this chapter with definitions of some additional key concepts, including **projects** , **identities**
 and **authorisation**.
 
-## 5. [Federated architecture: data layer](5_Data_Layer/5_1_Introduction.md)
+## 5. [Federated architecture: data layer](../5_Data_Layer/5_1_Introduction.md)
 
 We provide a simple cross-comparison of current data classification schemes (e.g. GDPR, UK
 Government) mapped to a single seven-point scale which could be used as a standard designation across
@@ -203,7 +203,7 @@ incremental development of discovery and indexing services of increasing sophist
 For **reusability** we observe simply that reuse of sensitive data from one project in another is much more a
 governance question than a technical challenge.
 
-## 6. [Federated architecture: organisational layer](6_Organisational_Layer/6_1_Introduction.md)
+## 6. [Federated architecture: organisational layer](../6_Organisational_Layer/6_1_Introduction.md)
 
 We note that the design of the operational model of the Federation must be **community-led** , and the
 organisational structures of the Federation must be comprised of the set, or an agreed core sub-set, of
