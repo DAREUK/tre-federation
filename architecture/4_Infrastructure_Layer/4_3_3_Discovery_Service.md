@@ -16,4 +16,11 @@ A Discovery Service which enables dynamic discovery of metadata by querying othe
 
 This dual “inward-outward” facing role will need careful security design; any outward-facing catalogue, for instance, MUST be air gapped or otherwise isolated from any other zone within the service. We model this with an Output Control process on the outward-facing interfaces.
 
+----
+
+| [< Participants: Index Service](4_3_2_Index_Service.md) | - | [Participants: Job Submission Service >](4_3_4_Job_Submission_Service.md) |
+| ---- | ---- | ---- |
+
+
+
 

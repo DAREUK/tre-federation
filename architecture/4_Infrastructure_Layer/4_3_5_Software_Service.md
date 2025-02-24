@@ -37,6 +37,13 @@ A Software Service (environment artifacts) supplies Environment Software Artifac
 Indirect queries sent as Job Request Objects from Job Submission components within TREs or Job Submission Services include “pointers” to external analytics objects held in repositories, rather than actual query payloads. A Software Service (research artifacts) acts as a proxy for such external repositories, handling requests from components within TRE Query Management Zones and returning the requested research artifact (workflow, container or script, as examples) as a Job Payload Artifact.
 
 
+----
+
+| [< Job Submission Service](4_3_4_Job_Submission_Service.md) | - | [Interface types >](4_4_Interface_Types.md) |
+| ---- | ---- | ---- |
+
+
+
 
 
 

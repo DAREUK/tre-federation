@@ -45,6 +45,12 @@ The sequence of events runs like this.
 This division also helps enforce the principle of “no TRE, no data”: Researchers access Datasets only through TREs, never directly. It also follows from “start from where we are” and “a standards-based ecosystem”, allowing TREs to continue to serve their user communities in the best way while providing common back-office connections to federated resources.
 
 
+----
+
+| [< SDRI core services](4_6_SDRI_Core_Services.md) | - | [Up >](../) |
+| ---- | ---- | ---- |
+
+
 
 
 

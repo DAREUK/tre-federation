@@ -15,3 +15,10 @@ The Federation may include many Indexing Services, each perhaps specialising in 
 Index Services MUST be trustworthy enough potentially to handle personal identifiers by which vertically partitioned datasets might be linked together. How indexes for such identifiers might be constructed is out of scope for this architecture. For a fuller treatment on how the exchange of indexes or linkage spines could be realised within the architecture see Chapter 5 Federated Architecture: Data Layer.
 
 Index Services SHALL interact with other Federation participants solely through Indexing interface service calls. 
+
+
+----
+
+| [< Participants: TRE](4_3_1_TRE.md) | - | [Participants: Discovery Service >](4_3_3_Discovery_Service.md) |
+| ---- | ---- | ---- |
+

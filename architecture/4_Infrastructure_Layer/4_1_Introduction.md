@@ -34,4 +34,8 @@ Purple indicates indexing or linkage spine data, what might be termed “sensiti
 | _Figure 4. Architectural diagram of the infrastructure layer of the SDRI Federation network. The notation broadly follows the ArchiMate v3.1 standard [[40]](../References.md#ref-40), although we use colour in a different way (see above). Note that the scope of the core federation is captured in the central “yellow collaboration” element and associated “blue box” security servers. Please refer to the key above for definitions of the diagram elements._ |
 
 
+----
+
+| [< Up](../) | - | [Actors and Roles >](4_2_Actors_And_Roles.md) |
+| ---- | ---- | ---- |
 

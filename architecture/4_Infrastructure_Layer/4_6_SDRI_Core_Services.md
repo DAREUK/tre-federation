@@ -64,4 +64,9 @@ Security Servers MUST support a mechanism to synchronise their configuration wit
 If control-plane connectivity to Federation Management Services is interrupted, Security Servers MUST be able to continue operating independently.
 
 
+----
+
+| [< Structured data objects](4_5_Structured_Data_Objects.md) | - | [Related concepts >](4_7_Related_Concepts.md) |
+| ---- | ---- | ---- |
+
 

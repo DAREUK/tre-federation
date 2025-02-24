@@ -54,5 +54,10 @@ In the TRE domain, Data Controllers take the role of Data Custodians, releasing 
 
 The TRE Operator runs the TRE technical service day-to-day. This role may be taken by the Information Governance actor, or it may be delegated by them to a different actor (the TRE Operator actor) under their direction.
 
+----
+
+| [< Introduction](4_1_Introduction.md) | - | [Participants >](4_3_Participants.md) |
+| ---- | ---- | ---- |
+
 
 
