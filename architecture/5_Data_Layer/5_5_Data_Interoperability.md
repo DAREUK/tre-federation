@@ -43,3 +43,10 @@ With the caveats noted above we have introduced a model of data linkage within t
  * Identifiers used in the linkage spines are transformed as part of the linkage process into Project-specific identifiers. Such identifiers have no meaning outside the Project and thus cannot be used, by themselves, to link to anything else.
 
 Linkage spines are exchanged between Federation Participants as structured documents.
+
+----
+
+| [< Data accessibility](5_4_Data_Accessibility.md) | - | [Data reusability >](5_6_Data_Reusability.md) |
+| ---- | ---- | ---- |
+
+

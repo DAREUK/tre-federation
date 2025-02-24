@@ -15,3 +15,11 @@ A proper understanding of the “linkability” of two or more datasets can also
 OpenSAFELY [28] have shown that, for certain kinds of well-structured data, the majority of the algorithmic development and data exploration work can be done outside a TRE, on “fake data” that match the sensitive data schema and terminology sets but which contain random values. OpenSAFELY couples this development stage with an indirect query job submission model to deploy a researcher’s analysis code into the TRE without needing to grant them as an individual any kind of secure access. The “fake data” development model could be extended to other data sources even if the actual analysis step were to follow the “traditional” TRE model of secure access over remote desktop.
 
 Enabling this degree of data exploration (or at least schema exploration) could be supported by additional Discovery Services sitting on the edge of the Federation.
+
+----
+
+| [< Data findability](5_3_Data_Findability.md) | - | [Data interoperability >](5_5_Data_Interoperability.md) |
+| ---- | ---- | ---- |
+
+
+

@@ -165,6 +165,11 @@ Many exchanges of structured data within the Federation will occur in a Project 
 
 We RECOMMEND that all such exchanges of structured data objects be tagged with a metadata record indicating this Project context. 
 
+----
+
+| [< Introduction](5_1_Introduction.md) | - | [Data findability >](5_3_Data_Findability.md) |
+| ---- | ---- | ---- |
+
 
 
 

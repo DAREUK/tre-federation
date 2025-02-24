@@ -37,3 +37,10 @@ Datasets should be classified by:
 
 **NB:** It must be emphasised that data classification in this manner is not a simple badge-it-and-forget affair. The sensitivity of a given dataset (whether Dataset or Data Extract) can and will change depending on the context it is in. The classifications themselves are also something of a blunt instrument: “John has asthma” and “John has HIV” are both personal health data (GDPR Special Category), but one could cause far more harm than the other if disclosed. It is far better to use this kind of classification only as a starting point and always consider the use of sensitive data within a “Five Safes” context, managing risk holistically across a number of dimensions.
 
+----
+
+| [< Up](../) | - | [Federation metadata >](5_2_Federation_Metadata.md) |
+| ---- | ---- | ---- |
+
+
+

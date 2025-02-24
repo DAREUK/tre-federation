@@ -10,3 +10,10 @@ Reusability in a sensitive data environment has to be balanced against governanc
 
 In technical terms, a service which preserved the TRE environment for the purposes in (1) would serve equally to support those in (2). We do not expand on the details of such a service here.
 
+
+----
+
+| [< Data interoperability](5_5_Data_Interoperability.md) | - | [Up >](../) |
+| ---- | ---- | ---- |
+
+
