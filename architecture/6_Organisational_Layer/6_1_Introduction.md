@@ -28,4 +28,9 @@ The rules of participation for the Federation need to be agreed by all relevant 
 Note that the governance focus of the FA is emphatically on what here is new: interoperability standards, service onboarding, coordinated change management and incident response. The existing stakeholders already have governance arrangements in place to enable research with sensitive data within TREs. The FA should not disrupt existing data governance arrangements for participants wanting to join, but should instead complement them. 
 
 
+----
+
+| [< Up](../) | - | [Centralised vs distributed vs decentralised >](6_2_Centralised_vs_Distributed_vs_Decentralised.md) |
+| ---- | ---- | ---- |
+
 
