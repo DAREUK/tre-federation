@@ -1,6 +1,7 @@
-# DARE UK Federated Architecture Blueprint
+> DARE UK Federated Architecture Blueprint  v2.2
+----
 
-## Document history
+# Document history
 
  | Version | Date | Authors/Reviewers | Notes |
  | ------- | ---- | ----------------- | ----- |
