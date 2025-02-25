@@ -49,7 +49,7 @@ System actors without Data Manager roles SHALL NOT be able to invoke Data Ingres
 
 ### 4.4.5 Index
 
-Index interface services provide a mechanism for TRE Governance roles and Index Services to exchange lists of personal identifiers, corresponding lists of depersonalised identifiers and master linkage spines for different Datasets. For more information see the section on [Index Services](4_3_2_Index_Service.md).
+Index interface services provide a mechanism for TRE Governance roles and [Index Services](4_3_2_Index_Service.md) to exchange lists of personal identifiers, corresponding lists of depersonalised identifiers and master linkage spines for different Datasets.
 
 Index interface services MUST connect solely to Index interface services.
 

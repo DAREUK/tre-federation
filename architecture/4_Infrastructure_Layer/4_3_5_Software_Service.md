@@ -30,7 +30,7 @@ To provision and configure Project Environments a Project Config service within 
 A Software Service (environment artifacts) supplies Environment Software Artifacts to requesting TREs.
 
 
-#### 4.3.5.1 Research Artifacts
+#### 4.3.5.2 Research Artifacts
  
 | [![Software service](../assets/images/federation-2-TRE_Federation_Elements_SSRA.jpg)](../assets/images/federation-2-TRE_Federation_Elements_SSRA.jpg) |
 | ---- |
