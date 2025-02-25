@@ -113,9 +113,9 @@ These high-level data patterns give rise to number of requirements that we note 
 
 
 The data pooling pattern occurs more often in current use. Here datasets are often vertically
-partitioned and need to be linked together using a common “master index” (I 123 ). The index is created by
-a trusted third-party “index service” in a way that ensures that the resulting linked dataset (D 123 ) is only
-ever created within the analysis TRE.
+partitioned and need to be linked together using a common “master index” (I<sub>123</sub> ). 
+The index is created by a trusted third-party “index service” in a way that ensures that the 
+resulting linked dataset (D<sub>123</sub>) is only ever created within the analysis TRE.
 
 This pattern is needed to combine different kinds of data using a common spine such as individual-level
 identifiers, universal property reference numbers etc. and requires careful governance of both datasets and
@@ -132,8 +132,8 @@ context of an approved Project to happen without the need for “Federation-inte
 All analytical queries and all results are maintained within the secured Federation network, and only move
 between TREs or other equivalently secured services.
 
-Federated analytics can also be used as a mechanism to create Discovery Services (cf. Part 4
-(Components)) which support distributed metadata discovery from _outside_ the Federation – although
+Federated analytics can also be used as a mechanism to create Discovery Services (cf. 
+[Part 4 (Components)](../4_Infrastructure_Layer/4_1_Introduction.md)) which support distributed metadata discovery from _outside_ the Federation – although
 because this usage connects internal Federation queries to the outside world, Discovery Services must be
 designed with disclosure control in place and with careful governance oversight.
 
@@ -144,7 +144,8 @@ designed with disclosure control in place and with careful governance oversight.
 | ---- | 
 
 Of the two federated analytics patterns the direct query pattern is the simpler but covers the fewest concrete
-use-cases. Here, datasets (D 1 , D 2 and D 3 ) remain within their data provider organisations (“data TREs” 1, 2 and 3)
+use-cases. Here, datasets (D<sub>1</sub>, D<sub>2</sub> and D<sub>3</sub> )
+remain within their data provider organisations (“data TREs” 1, 2 and 3)
 and queries across them are sent from a project within an “analysis TRE”. The data TREs need to have the
 capability to handle the queries. Responses are returned to the project but not necessarily synchronously: query
 responses may need to be disclosure checked before they are permitted to leave the data TRE.
@@ -168,7 +169,8 @@ exchanged between participating TREs.
 
 The indirect query pattern captures the use-cases seen in federated analytics using job submission: a
 job request is created by researchers on a project and sent to participating “data TREs”. Again, the datasets
-(D 1 , D 2 and D 3 ) remain within their provider organisations. To execute the job query, the TREs
+(D<sub>1</sub>, D<sub>2</sub> and D<sub>3</sub>) remain within their provider organisations. 
+To execute the job query, the TREs
 must download the actual “analytical payload” (a workflow, for example) from another source, run it,
 and return the response to the originating service. (This download may need to be done in advance, and
 the contents of the payload risk-assessed before it can be executed within the TRE.) Each TRE must, of
