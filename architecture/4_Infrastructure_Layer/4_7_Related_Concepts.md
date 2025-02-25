@@ -3,9 +3,9 @@
 ----
 
 # Chapter 4 Federated architecture: infrastructure layer
-## Related concepts
+## 4.7 Related concepts
 
-### Projects
+### 4.7.1 Projects
 
 The Project is a key concept in the use of the SDRI Federation. A Project defines a context for an approved research activity, including the Project Members involved, information about the data they are authorised to use, the TRE that hosts it, its duration and so on. A Project defines an authorisation context which provides a key piece of information for overall SDRI governance (cf. [Chapter 6](../6_Organisational_Layer/6_1_Introduction.md)).
 
@@ -18,7 +18,7 @@ More complex Projects will follow the federated analytics pattern ([Chapter 2](.
 
 The most complex Projects will potentially require a mix of data pooling—perhaps in an initial exploratory or development phase—and federated analytics—a “full production run” across remote data. For such Projects, one TRE should be designated as the host for the data pooling phases and, by construction, the “host” for the Project overall. This complex pattern anticipates large-scale federated machine learning across complex datasets (such as medical image stores). 
 
-### Federation identities
+### 4.7.2 Federation identities
 
 Many elements of the SDRI Federation will have an identity and a number of attributes that can be used by system components and other system actors to reason about them. For example, a research user could have an identity and an associated list of active projects of which they were a member. Taken together, this information could be used by a remote data provider to decide whether or not to allow a query from that user to run in a particular project context.
 
@@ -35,7 +35,7 @@ Implementation details are not dealt with here, but the table illustrates some o
 | Data Extract	| Name; Data controller; creation criteria (e.g., cohort definition); etc.| 
 | Linkage Spine	| Identity of associated project; List of identities of associated datasets; etc.| 
 
-### Authentication and authorization
+### 4.7.3 Authentication and authorization
 
 The authentication of Researchers’ identities and their subsequent authorisation to access Projects, Datasets and other Federation resources are split into two stages. This two-tier approach is not uncommon in large-scale federated environments (cf., for example, Appendix III of the Architecture Vision of the proposed EU Smart Middleware Platform [[23]](../References.md#ref-23)). To support a rich ecosystem of participants deploying different technology stacks, it is also necessary.
 
