@@ -14,7 +14,7 @@ A Software Service may:
 
 and so on.
 
-Software Services MUST support the Software interface type. 
+Software Services MUST support the [Software](4_4_Interface_Types.md#software) interface type. 
 
 As suggested, the Federation may have many Software Services, some specialising in particular kinds of software, language packages and so on. Two kinds are described here.
 
