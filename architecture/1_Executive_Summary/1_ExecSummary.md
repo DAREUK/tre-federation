@@ -66,8 +66,8 @@ in a way that is standardised but as minimally intrusive to the good practice al
 
 In our context, we use federation in its broadest sense of connecting organisations together under a
 common set of rules and standards. This provides the framework for research patterns which either
-involve moving analyses to distributed datasets (“ **federated analytics** ”) or moving datasets into a single
-location for analysis (“ **data pooling** ”). We observe that the Federation must support both.
+involve moving analyses to distributed datasets (“**federated analytics**”) or moving datasets into a single
+location for analysis (“**data pooling**”). We observe that the Federation must support both.
 
 In parallel with the development of this architecture the DARE UK programme has supported **five “driver
 projects”** , each of which explored possible technologies and tools that could be used in later
@@ -140,7 +140,7 @@ queries. To this end our model of a TRE has three distinct zones: a **research a
 data zone** (SDZ) and a **query management zone** (QMZ). We observe that not every TRE need support
 every zone.
 
-We conclude this chapter with definitions of some additional key concepts, including **projects** , **identities**
+We conclude this chapter with definitions of some additional key concepts, including **projects**, **identities**
 and **authorisation**.
 
 ## 5. [Federated architecture: data layer](../5_Data_Layer/5_1_Introduction.md)
@@ -210,7 +210,7 @@ organisational structures of the Federation must be comprised of the set, or an 
 the Federation Participants (TREs and their governance bodies, other services).
 
 We introduce the idea of a **Federation Authority** (FA) as an oversight body, and discuss the pros and cons
-of delivering different aspects of the FA’s functions through **centralised** , **distributed** or **decentralised
+of delivering different aspects of the FA’s functions through **centralised**, **distributed** or **decentralised
 models**. We draw no conclusions but offer this up as a starting point for broader community dialogue.
 
 ----
