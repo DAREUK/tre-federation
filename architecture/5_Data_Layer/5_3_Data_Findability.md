@@ -1,4 +1,5 @@
-> DARE UK Federated Architecture Blueprint  v2.2
+**[DARE UK Federated Architecture Blueprint](../)**      v2.2
+
 ----
 
 # Chapter 5 Federated architecture: data layer
@@ -11,7 +12,7 @@ A consequence of this is that data findability, or discovery, is not a core use-
 The Federation architecture as proposed does permit the exposure, via query interfaces, of metadata from the Federation to the public Internet. By this statement we mean there is nothing proposed in the architecture that renders this impossible. Whether and in what form it might be realised is currently left as a question of governance and of implementation. Possible approaches to exposing public metadata from controlled environments can be found in the GA4GH Beacon work [[51]](../References.md#ref-51) and in the HDR-UK CO-CONNECT work [[52]](../References.md#ref-52).
 
 
-### Discovery metadata
+### 5.3.1 Discovery metadata
 
 The [ELIXIR Ontology Lookup Service](https://www.ebi.ac.uk/ols/ontologies) hosts 280 life-science ontologies. 
 The NHS list of [approved national information standards](https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections ) counts 90 standards and twice as many collections, while the NHS Data Model and Dictionary describes over 2,750 data elements. 
@@ -21,7 +22,7 @@ Harmonising data discovery in such a landscape is simply intractable. The best w
 
 From an architectural perspective the SDRI Federation is an “overlay” on top of Web standards, notably HTTPS, XML and JSON. Hence we favour “Web facing” formats for metadata over internally-oriented standards.
 
-#### Recommended standards
+#### 5.3.1.1 Recommended standards
 
 Our three key reference sites for metadata standards are:
  * Central Digital and Data Office: [Open standards for government data and technology](https://www.gov.uk/government/collections/open-standards-for-government-data-and-technology).

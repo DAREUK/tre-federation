@@ -1,4 +1,5 @@
-> DARE UK Federated Architecture Blueprint  v2.2
+**[DARE UK Federated Architecture Blueprint](../)**      v2.2
+
 ----
 
 # Appendix A. A comparison of contemporary federated data architectures

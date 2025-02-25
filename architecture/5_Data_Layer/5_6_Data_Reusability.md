@@ -1,8 +1,9 @@
-> DARE UK Federated Architecture Blueprint  v2.2
+**[DARE UK Federated Architecture Blueprint](../)**      v2.2
+
 ----
 
 # Chapter 5 Federated architecture: data layer
-## Data reusability
+## 5.6 Data reusability
 
 Reusability in a sensitive data environment has to be balanced against governance principles which restrict use of data to pre-approved purposes only. We can draw two broad categories of reusability:
  1. Reuse under original approvals. Assembled datasets and analyses derived from them (including computer programs) may result in a model for which evidence must be preserved for many years (for example clinical trials or medical devices). The datasets and analyses must be preserved in a way that could be checked and re-validated in the future, but all within the same purpose for which approvals were originally granted (and all within the same, or an equivalent, TRE). This then becomes the challenge of preserving long-term a digital object that is quite possibly encrypted. Specialised archive services could be developed that would do this (many already exist).

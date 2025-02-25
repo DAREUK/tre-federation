@@ -1,5 +1,7 @@
-> [DARE UK Federated Architecture Blueprint](../)  v2.2
+**[DARE UK Federated Architecture Blueprint](../)**      v2.2
+
 ----
+
 
 # Chapter 1 Executive Summary
 
