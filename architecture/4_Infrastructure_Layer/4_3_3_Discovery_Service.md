@@ -12,7 +12,7 @@ A Discovery Service provides information (metadata) about features of the Federa
 
 The Federation may include many Discovery Services, perhaps specialising in different kinds of data.
 
-A Discovery Service which enables dynamic discovery of metadata by querying other Federation services MUST support the outgoing Query (direct) and incoming Response interface types. Because Query interface services encompass a range of capabilities, Discovery Services are not restricted to static lists of metadata. They can range from simple high-level data or service discoverability to dynamic cohort discovery and “Beacon-like” services [51].
+A Discovery Service which enables dynamic discovery of metadata by querying other Federation services MUST support the outgoing Query (direct) and incoming Response interface types. Because Query interface services encompass a range of capabilities, Discovery Services are not restricted to static lists of metadata. They can range from simple high-level data or service discoverability to dynamic cohort discovery and “Beacon-like” services [[51]](../References.md#ref-51).
 
 This dual “inward-outward” facing role will need careful security design; any outward-facing catalogue, for instance, MUST be air gapped or otherwise isolated from any other zone within the service. We model this with an Output Control process on the outward-facing interfaces.
 

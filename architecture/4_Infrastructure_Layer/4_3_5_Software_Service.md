@@ -7,10 +7,10 @@
 
 A Software Service provides access for Federation participants to sources of software from outside the Federation. 
 A Software Service may:
- - act as a direct network proxy for Internet-based third-party software services (e.g., CRAN );
- - act as an independently curated, high-assurance mirror service for popular software packages (e.g., Anaconda Python Enterprise ); 
- - act as a proxy for defined and approved user accounts on a public open-source software repository (e.g., GitHub );
- - act as a proxy for Researcher workflows or analytical scripts stored in external repositories (e.g., WorkflowHub ) to be used as payloads for indirect queries;
+ - act as a direct network proxy for Internet-based third-party software services (e.g., CRAN);
+ - act as an independently curated, high-assurance mirror service for popular software packages (e.g., Anaconda Python Enterprise); 
+ - act as a proxy for defined and approved user accounts on a public open-source software repository (e.g., GitHub);
+ - act as a proxy for Researcher workflows or analytical scripts stored in external repositories (e.g., WorkflowHub) to be used as payloads for indirect queries;
 
 and so on.
 
