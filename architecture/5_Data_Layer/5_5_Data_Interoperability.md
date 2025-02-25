@@ -8,7 +8,7 @@ So far within the architecture we have recognised the fundamental importance of 
 
 ### Syntactic interoperability
 
-The most straightforward level of interoperability is syntactic or schema-level: are the datasets to be connected the same shape in at least one of their dimensions? In the horizontally and vertically partitioned dataspace we introduced in Section 0 there are two strong assumptions:
+The most straightforward level of interoperability is syntactic or schema-level: are the datasets to be connected the same shape in at least one of their dimensions? In the horizontally and vertically partitioned dataspace we introduced in [Section 2.2](../2_Strategic_Case/2_2_The_Federation_Challenge.md) there are two strong assumptions:
  * EITHER the datasets have the same set of data subjects in the same order (e.g., different sets of attributes about the same group of people, ordered the same way);
  * OR the datasets have the same set of attributes in the same order (e.g., the same set of attributes about two different groups of people).
 
@@ -23,7 +23,7 @@ Simple syntactic joining becomes harder when two datasets are probably interoper
  * Given Name; Family Name; Age;
  * Nom; Prénom; Age.
 
-Human experience tells us that these three datasets most likely record the same information (even with the transposition of name parts and dual languages in play). An equivalent level of experience for an automated service could be created using terminology bases, in much the same way that computer-assisted translation tools work today. (The proposed EU Smart Middleware Platform architecture includes just such a vocabulary service [23].)
+Human experience tells us that these three datasets most likely record the same information (even with the transposition of name parts and dual languages in play). An equivalent level of experience for an automated service could be created using terminology bases, in much the same way that computer-assisted translation tools work today. (The proposed EU Smart Middleware Platform architecture includes just such a vocabulary service [[23]](../References.md#ref-23).)
 
 By introducing one or more terminology services, it is feasible to imagine an Index Service which could automate the linkage of two datasets under these conditions.
 
@@ -31,7 +31,7 @@ By introducing one or more terminology services, it is feasible to imagine an In
 
 By far the most complex level of interoperability is semantic: two data items may have the same name but the way they were recorded might be very different. Different people, in different contexts, under different time pressures, might record nominally identical data items in subtly different ways which make them non-interoperable in ways almost impossible for an automated system to identify.
 
-Another semantic variant arises in linkage between two or more datasets which each contain a number of data elements that, either alone or combined, mean nearly the same thing. Here, human intervention can harmonise the datasets, perhaps by introducing a new, common element, constructed differently in different datasets but which is nevertheless equivalent between them. Whether this kind of harmonisation could be achieved outside the TRE, working purely with dataset schemas and terminology sets (cf. Section 5.4), is likely to be highly case dependent.
+Another semantic variant arises in linkage between two or more datasets which each contain a number of data elements that, either alone or combined, mean nearly the same thing. Here, human intervention can harmonise the datasets, perhaps by introducing a new, common element, constructed differently in different datasets but which is nevertheless equivalent between them. Whether this kind of harmonisation could be achieved outside the TRE, working purely with dataset schemas and terminology sets (cf. [Section 5.4](5_4_Data_Accessibility.md)), is likely to be highly case dependent.
 
 It is difficult to imagine a scenario in which an Index Service could automate the linkage of two datasets under these 
 conditions.

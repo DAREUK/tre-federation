@@ -59,11 +59,12 @@ Datasets, while treated as dynamic, are potentially persistent and long-lived. D
 
 The dynamic nature of datasets arises not from their ephemerality or their movement around the Federation but from their changeability. Datasets are updated (new entries made, old entries pruned) and their schemas or formats change (more slowly). How different versions of a dataset should be managed and recorded is out of scope, but we would recommend that its Federation identity remain unchanged, just as its name would.
 
-Summary metadata for a Dataset will be public, perhaps conforming to a common high-level catalogue schema. As a current starting point for defining the required fields in these high-level metadata records we would recommend Appendix A of the UK Statistics Authority DEA Data Capability Guidance [49]. We use this to derive the example metadata records below, our goal being to design defensively and align Federation metadata as closely as possible with anticipated governance or accreditation requirements. 
+Summary metadata for a Dataset will be public, perhaps conforming to a common high-level catalogue schema. As a current starting point for defining the required fields in these high-level metadata records we would recommend Appendix A of the UK Statistics Authority DEA Data Capability Guidance [[49]](../References.md#ref-49). We use this to derive the example metadata records below, our goal being to design defensively and align Federation metadata as closely as possible with anticipated governance or accreditation requirements. 
 
 > The UK Statistics Authority Digital Economy Act scheme for UK-based processors of statistical data is a rigorous approach to accreditation but does not cover health-related data. However it has been announced (June 2023; see https://transform.england.nhs.uk/key-tools-and-info/data-saves-lives/data-saves-lives-implementation-update/) that the UK NHS and Statistics Authority will work together to co-design an updated version of the DEA scheme suitable for both statistical and health data.
 
-Particular data domains may, of course, introduce their own standards, and commonality will need to be distilled and agreed accordingly. (In the health domain, for example, the HDR Alliance have defined a useful standard for data use registers [50].)
+Particular data domains may, of course, introduce their own standards, and commonality will need to be distilled and agreed accordingly. (In the health domain, for example, the HDR Alliance have defined a useful standard for data use registers [[50]](../References.md#ref-50).)
+
 Some detailed Dataset metadata will be Federation-private.
 
 

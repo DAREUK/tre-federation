@@ -8,7 +8,7 @@ The Federation “content metadata” records introduced in the previous section
 
 A consequence of this is that data findability, or discovery, is not a core use-case for the SDRI Federation. The Federation does, however, have a role to play in supporting data discovery where it can—maintaining a record of what datasets from which providers are available in which TRE with what linkages available—and ensuring that such information can be accessed usefully in standard ways from outside the Federation without compromising its secure perimeter.
 
-The Federation architecture as proposed does permit the exposure, via query interfaces, of metadata from the Federation to the public Internet. By this statement we mean there is nothing proposed in the architecture that renders this impossible. Whether and in what form it might be realised is currently left as a question of governance and of implementation. Possible approaches to exposing public metadata from controlled environments can be found in the GA4GH Beacon work [51] and in the HDR-UK CO-CONNECT work [52].
+The Federation architecture as proposed does permit the exposure, via query interfaces, of metadata from the Federation to the public Internet. By this statement we mean there is nothing proposed in the architecture that renders this impossible. Whether and in what form it might be realised is currently left as a question of governance and of implementation. Possible approaches to exposing public metadata from controlled environments can be found in the GA4GH Beacon work [[51]](../References.md#ref-51) and in the HDR-UK CO-CONNECT work [[52]](../References.md#ref-52).
 
 
 ### Discovery metadata
