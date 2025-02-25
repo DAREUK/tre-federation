@@ -8,9 +8,10 @@
 
 The Project is a key concept in the use of the SDRI Federation. A Project defines a context for an approved research activity, including the Project Members involved, information about the data they are authorised to use, the TRE that hosts it, its duration and so on. A Project defines an authorisation context which provides a key piece of information for overall SDRI governance (cf. [Chapter 6](../6_Organisational_Layer/6_1_Introduction.md)).
 
-All Projects MUST be registered with the Federation’s Registry services. An example of the kind of metadata required in a Project’s Registry entry is offered in the section on [Project metadata](../5_Data_Layer/).
+All Projects MUST be registered with the Federation’s Registry services. An example of the kind of metadata required in a Project’s Registry entry is offered in the section on 
+[Project metadata](../5_Data_Layer/5_2_Federation_Metadata.md#project-metadata).
 
-Simple Projects, typical of most current projects across the UK TRE landscape, will follow the data pooling pattern of access ([Chapter 2](../2_Strategic_Case/2_2_The_Federation_Challenge.md)). They involve one TRE with a Research Analytics Zone (the host), a number of TREs acting as data providers and, potentially, a trusted third-party Index Service.
+Simple Projects, typical of most current projects across the UK TRE landscape, will follow the data pooling pattern of access ([Chapter 2](../2_Strategic_Case/2_2_The_Federation_Challenge.md)). They involve one [TRE](4_3_1_TRE.md) with a Research Analytics Zone (the host), a number of TREs acting as data providers and, potentially, a trusted third-party [Index Service](4_3_2_Index_Service.md).
 
 More complex Projects will follow the federated analytics pattern ([Chapter 2](../2_Strategic_Case/2_2_The_Federation_Challenge.md)) and involve direct and indirect queries across multiple TREs with Query Management Zones capable of processing incoming query objects. For the purposes of governance and authorisation context, one TRE MUST be designated as the “host” or “instigator” of the Project.
 
@@ -35,7 +36,7 @@ Implementation details are not dealt with here, but the table illustrates some o
 
 ### Authentication and authorization
 
-The authentication of Researchers’ identities and their subsequent authorisation to access Projects, Datasets and other Federation resources are split into two stages. This two-tier approach is not uncommon in large-scale federated environments (cf., for example, Appendix III of the Architecture Vision of the proposed EU Smart Middleware Platform [23]). To support a rich ecosystem of participants deploying different technology stacks, it is also necessary.
+The authentication of Researchers’ identities and their subsequent authorisation to access Projects, Datasets and other Federation resources are split into two stages. This two-tier approach is not uncommon in large-scale federated environments (cf., for example, Appendix III of the Architecture Vision of the proposed EU Smart Middleware Platform [[23]](../References.md#ref-23)). To support a rich ecosystem of participants deploying different technology stacks, it is also necessary.
 
 The sequence of events runs like this.
  1. Two TREs establish a trust relationship, brokered by the Federation Services and using the Federation’s foundational trust services. This “server to server” trust relationship is a standard approach to securing services across the Internet and is typically implemented using X.509 certificates and a public key encryption infrastructure. (We do not cover the details here.) At a foundational level, this is what joining the Federation as a Participant means.
