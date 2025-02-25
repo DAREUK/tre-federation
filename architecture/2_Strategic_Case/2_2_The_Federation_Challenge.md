@@ -2,7 +2,7 @@
 ----
 
 # Chapter 2 Strategic Case
-## The federation challenge
+## 2.2 The federation challenge
 
 While there are many ways to define “sensitive data” one important definition is “individual-level public
 data”, and particularly individual-level data defined as “special category” under the 
@@ -60,7 +60,7 @@ Using this approach we derive three essential use-cases:
 Since our interest is in the federation of TREs and data providers at the organisational level we do not
 consider the details of data provision to researchers within a TRE.
 
-### Conceptual data space
+### 2.2.1 Conceptual data space
 
 We can bring these ideas together into a conceptual data space where different kinds of dataset are
 divided across different regional data custodians. Each block in Figure 1 is conceptually held by a
@@ -77,11 +77,9 @@ horizontally results in a number of sub- populations with common attributes.
 Partitioning vertically splits the attribute space for the whole population. Doing both creates the picture
 in Figure 1.
 
-
-| _Figure 1. Conceptual dataspace for DARE UK_ |
-| ---- | 
 | ![Figure 1](../assets/images/dataspace-Tabular_data.drawio.png) |
-
+| ---- | 
+| _Figure 1. Conceptual dataspace for DARE UK_ |
 
 The reality of data combination is much messier than this picture suggests, of course; nevertheless a
 conceptual abstraction at this level is useful in categorising use-cases and identifying common
@@ -121,7 +119,7 @@ This pattern is needed to combine different kinds of data using a common spine s
 identifiers, universal property reference numbers etc. and requires careful governance of both datasets and
 indexes.
 
-### Federated analytics
+### 2.2.2 Federated analytics
 
 The federated analytics pattern works very well when data are horizontally partitioned but otherwise
 uniform (e.g., census data divided by region). It can be made to work when data are vertically partitioned,
@@ -138,7 +136,7 @@ because this usage connects internal Federation queries to the outside world, Di
 designed with disclosure control in place and with careful governance oversight.
 
 
-#### Direct query
+#### 2.2.2.1 Direct query
 
 | ![ ](../assets/images/use-case-patterns-Pattern_0b.drawio.png) |
 | ---- | 
@@ -162,7 +160,7 @@ one TRE to a “single pane of glass” user-view in another. To the research us
 and consequent utility, of a single database table, while behind the scenes queries and results are 
 exchanged between participating TREs.
 
-#### Indirect query
+#### 2.2.2.2 Indirect query
 
 | ![ ](../assets/images/use-case-patterns-Pattern_0c.drawio.png) |
 | ---- | 

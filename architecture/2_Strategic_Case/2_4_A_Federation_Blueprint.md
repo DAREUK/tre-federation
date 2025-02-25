@@ -2,7 +2,7 @@
 ----
 
 # Chapter 2 Strategic Case
-## A federation blueprint
+## 2.4 A federation blueprint
 
 In the rest of this blueprint we describe a UK-wide federation of sensitive data research infrastructure—
 the SDRI Federation, or simply “the Federation”—built on common standards, with a small number of
@@ -33,7 +33,7 @@ data and researchers in authorised contexts, requires the same rigour in approva
 as it does today. The organisation of the Federation is a new concept, not a replacement for existing data
 governance approaches.
 
-### Scope
+### 2.4.1 Scope
 
 In the following chapters we divide the SDRI Federation into three layers and consider each in turn. Each
 layer underpins each subsequent one.
@@ -52,7 +52,7 @@ technical governance is essential to set the infrastructure in context, but deta
 topics are out of scope of this document.
 
 
-### Design principles
+### 2.4.2 Design principles
 
 DARE UK’s approach to the design and build of a federated network for research with sensitive data
 follows a number of principles, closely aligned with the SATRE principles.

@@ -2,7 +2,7 @@
 ----
 
 # Chapter 3 Users and use-cases
-## User stories and requirements mapping
+## 3.4 User stories and requirements mapping
 
 Analysis of both data usage patterns and user personas has identified a number of key
 requirements for the overall federation and for individual services within it [[2]](../References.md#ref-2).

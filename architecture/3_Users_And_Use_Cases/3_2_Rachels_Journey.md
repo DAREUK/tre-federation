@@ -2,7 +2,7 @@
 ----
 
 # Chapter 3 Users and use-cases
-## Rachel’s journey: 2022
+## 3.2 Rachel’s journey: 2022
 
 Where do we start from?
 

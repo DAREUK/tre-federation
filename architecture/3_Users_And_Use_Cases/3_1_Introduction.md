@@ -2,7 +2,7 @@
 ----
 
 # Chapter 3 Users and use-cases
-## Introduction
+## 3.1 Introduction
 
 By some measures the UK already has a research landscape for sensitive data that is
 federated. Data are distributed and distant from researchers, services are available to link

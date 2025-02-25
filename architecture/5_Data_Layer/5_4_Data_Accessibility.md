@@ -2,7 +2,7 @@
 ----
 
 # Chapter 5 Federated architecture: data layer
-## Data accessibility
+## 5.4 Data accessibility
 
 Easier and more streamlined access to sensitive data is the raison d’être of the DARE UK programme and of the Federation described here. We adhere strongly to the principle of “no TRE, no data”—data access in a secure environment over data distribution to researchers’ local systems—which offers a far greater degree of data security but does place some new restrictions on data access.
 

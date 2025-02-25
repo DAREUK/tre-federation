@@ -2,8 +2,8 @@
 ----
 
 # Chapter 4 Federated architecture: infrastructure layer
-## Participants
-### Software Service
+## 4.3 Participants
+### 4.3.5 Software Service
 
 A Software Service provides access for Federation participants to sources of software from outside the Federation. 
 A Software Service may:
@@ -14,12 +14,12 @@ A Software Service may:
 
 and so on.
 
-Software Services MUST support the [Software](4_4_Interface_Types.md#software) interface type. 
+Software Services MUST support the [Software](4_4_Interface_Types.md#446-software) interface type. 
 
 As suggested, the Federation may have many Software Services, some specialising in particular kinds of software, language packages and so on. Two kinds are described here.
 
 
-#### Environment Artifacts
+#### 4.3.5.1 Environment Artifacts
 
 | [![Software service](../assets/images/federation-2-TRE_Federation_Elements_SSEA.jpg)](../assets/images/federation-2-TRE_Federation_Elements_SSEA.jpg) |
 | ---- |
@@ -29,7 +29,7 @@ To provision and configure Project Environments a Project Config service within 
 A Software Service (environment artifacts) supplies Environment Software Artifacts to requesting TREs.
 
 
-#### Research Artifacts
+#### 4.3.5.1 Research Artifacts
  
 | [![Software service](../assets/images/federation-2-TRE_Federation_Elements_SSRA.jpg)](../assets/images/federation-2-TRE_Federation_Elements_SSRA.jpg) |
 | ---- |

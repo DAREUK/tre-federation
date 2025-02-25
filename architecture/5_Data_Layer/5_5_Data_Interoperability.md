@@ -2,7 +2,7 @@
 ----
 
 # Chapter 5 Federated architecture: data layer
-## Data interoperability
+## 5.5 Data interoperability
 
 So far within the architecture we have recognised the fundamental importance of data interoperability in the form of data linkage but our treatment has been deliberately naïve. There are multiple levels on which to consider data interoperability and most of these are out of the scope of a federated architecture. Nevertheless we note them here and may expand on them in future iterations.
 

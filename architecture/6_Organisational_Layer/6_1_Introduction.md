@@ -2,7 +2,7 @@
 ----
 
 # Chapter 6 Federated architecture: organisational layer
-## Overview
+## 6.1 Overview
 
 Chapters [4](../4_Infrastructure_Layer/4_1_Introduction.md) and [5](../5_Data_Layer/5_1_Introduction.md) have attempted to distil and write down the technical specifics of a federated architecture for TRE services – the “what” of the SDRI Federation. This chapter is much more open. Reaching agreement on an organisational model to manage the required new elements of standards and core services – the “how” – must be done through wider community processes.
 

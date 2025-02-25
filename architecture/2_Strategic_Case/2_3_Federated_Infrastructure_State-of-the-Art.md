@@ -2,7 +2,7 @@
 ----
 
 # Chapter 2 Strategic Case
-## Federated infrastructure: the state of the art
+## 2.3 Federated infrastructure: the state of the art
 
 Infrastructure federations have been a staple of the UK research landscape since the early 2000s and the
 drivers of the UK e-Science Core Programme [[8]](../References.md#ref-8). The World-wide LHC Compute Grid 
@@ -71,7 +71,7 @@ GAIA-X; these four initiatives do collaborate at various levels. Appendix A prov
 initiatives, alongside similar concepts from the proposed SDRI Federation architecture.
 
 
-### TRE federation proofs-of-concept: the DARE UK driver projects
+### 2.3.1 TRE federation proofs-of-concept: the DARE UK driver projects
 
 During 2023 the DARE UK programme funded a portfolio of driver projects to explore potential
 technologies in this space, three of which in particular have a strong bearing on topics covered later in

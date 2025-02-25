@@ -2,7 +2,7 @@
 ----
 
 # Chapter 6 Federated architecture: organisational layer
-## Centralised vs distributed vs decentralized
+## 6.2 Centralised vs distributed vs decentralized
 
 How could the Federation Authority be realised?
 

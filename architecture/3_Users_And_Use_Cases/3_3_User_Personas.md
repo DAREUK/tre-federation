@@ -2,7 +2,7 @@
 ----
 
 # Chapter 3 Users and use-cases
-## User personas
+## 3.3 User personas
 
 DARE UK has worked with relevant community groups across the UK to develop user personas to represent classes of users. Personas give voice and motivation to the abstract “actors” used later in our system architecture and consequently are a better source of genuine use-cases. In particular, a persona’s needs and motivations can be a better tool to identify non-functional requirements (how safely? how quickly?) than abstract system roles. 
 
@@ -25,7 +25,7 @@ Often it is easy to associate a particular persona with a single type of actor; 
 
 > _Table 1. User personas._
 
-### Federation actors and roles
+### 3.3.1 Federation actors and roles
 
 We can group the different “actors” in the last column of the table into three groups: Data
 Providers, Data Consumers and Service Providers, the latter providing services that connect
@@ -33,7 +33,7 @@ the former two.
 Most of these roles already exist in practice, except for Federation Operator, which, by
 construction, is new.
 
-#### _Data Providers_
+#### 3.3.1.1 _Data Providers_
 Actors and roles in this group include:
 
 - members of the Public, as ultimate providers of their data for research in the public
@@ -44,7 +44,7 @@ Actors and roles in this group include:
 - Data Custodians act as intermediaries between Data Controllers and Researchers.
     Data Custodians are the ones who provide sensitive data for research projects.
 
-#### _Data Consumers_
+#### 3.3.1.2 _Data Consumers_
 Actors and roles in this group include:
 
 - academic Researchers, looking for access to sensitive data to address particular
@@ -56,7 +56,7 @@ Actors and roles in this group include:
     researchers but in terms of their interaction with the SDRI Federation we can treat
     them as Researchers.
 
-#### _Service Providers_
+#### 3.3.1.3 _Service Providers_
 Actors and roles in this group are more diverse than the other two and include the following:
 
 - Information Governance (IG) professionals act as intermediaries between Data
@@ -78,7 +78,7 @@ Actors and roles in this group are more diverse than the other two and include t
     all the security controls required by the overall federation IG.
 
 
-### Other stakeholders
+### 3.3.2 Other stakeholders
 
 There are a small number of roles who don’t interact directly with the federation but have a
 stake in its outcomes, including:

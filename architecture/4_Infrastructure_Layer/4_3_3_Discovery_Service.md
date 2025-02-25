@@ -2,8 +2,8 @@
 ----
 
 # Chapter 4 Federated architecture: infrastructure layer
-## Participants
-### Discovery Service
+## 4.3 Participants
+### 4.3.3 Discovery Service
 
 A Discovery Service provides information (metadata) about features of the Federation to users outside the Federation. It may achieve this by querying the Registry or other services within the Federation. 
 
@@ -12,7 +12,7 @@ A Discovery Service provides information (metadata) about features of the Federa
 
 The Federation may include many Discovery Services, perhaps specialising in different kinds of data.
 
-A Discovery Service which enables dynamic discovery of metadata by querying other Federation services MUST support the outgoing [Query (direct)](4_4_Interface_Types.md#query-direct) and incoming [Response](4_4_Interface_Types.md#response) interface types. Because Query interface services encompass a range of capabilities, Discovery Services are not restricted to static lists of metadata. They can range from simple high-level data or service discoverability to dynamic cohort discovery and “Beacon-like” services [[51]](../References.md#ref-51).
+A Discovery Service which enables dynamic discovery of metadata by querying other Federation services MUST support the outgoing [Query (direct)](4_4_Interface_Types.md#441-query-direct) and incoming [Response](4_4_Interface_Types.md#443-response) interface types. Because Query interface services encompass a range of capabilities, Discovery Services are not restricted to static lists of metadata. They can range from simple high-level data or service discoverability to dynamic cohort discovery and “Beacon-like” services [[51]](../References.md#ref-51).
 
 This dual “inward-outward” facing role will need careful security design; any outward-facing catalogue, for instance, MUST be air gapped or otherwise isolated from any other zone within the service. We model this with an Output Control process on the outward-facing interfaces.
 

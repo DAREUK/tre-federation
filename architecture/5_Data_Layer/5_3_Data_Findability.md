@@ -2,7 +2,7 @@
 ----
 
 # Chapter 5 Federated architecture: data layer
-## Data findability
+## 5.3 Data findability
 
 The Federation “content metadata” records introduced in the previous section are examples of the types of information that need to be captured and recorded in the Registry services of the Federation, but are largely useless in helping researchers find what data might actually be available to support their research within the Federation. As described in Section 3.1 Rachel’s Journey this data discovery needs to happen outside the Federation, before a researcher has even defined the project they might ultimately propose.
 

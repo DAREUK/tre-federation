@@ -2,7 +2,7 @@
 ----
 
 # Chapter 5 Federated architecture: data layer
-## Federation metadata
+## 5.2 Federation metadata
 
 Our concept of Federation metadata covers high-level descriptions of all the elements of the SDRI Federation, from the services that comprise its infrastructure to the data, users and projects that make it useful. It is descriptive of the Federation and its activities, and provides a very high-level view of data assets within the Federation, but does not include rich, detailed descriptions of these data assets. How best the technical infrastructure could support rich discovery and exploration of datasets from many different disciplines is a challenging question.
 

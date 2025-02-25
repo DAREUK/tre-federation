@@ -2,7 +2,7 @@
 ----
 
 # Chapter 5 Federated architecture: data layer
-## Classifying sensitive data
+## 5.1 Classifying sensitive data
 
 There is no generally agreed definition of “sensitive data”. Most working classifications are built around three considerations: the subject of a given dataset; the organisation responsible for custody of a given dataset; and the potential harm, to either subject or custodian organisation (or both), from unauthorised disclosure of the dataset. 
 

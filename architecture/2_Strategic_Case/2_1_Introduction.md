@@ -2,7 +2,7 @@
 ----
 
 # Chapter 2 Strategic Case
-## Introduction
+## 2.1 Introduction
 
 
 >“The UK Research and Innovation DARE UK (Data and Analytics Research Environments UK)
@@ -22,7 +22,7 @@ no likely future scenario which brings all data and
 all compute services together in one location. To enable researchers to work with data linked from
 multiple sources, a federated digital research infrastructure is needed.
 
-### DARE UK Phase 1 recommendations
+### 2.1.1 DARE UK Phase 1 recommendations
 
 There are ten key recommendations from the DARE UK Phase 1 report [[2]](../References.md#ref-2) that 
 shape our approach to a federated architecture for trusted research environments (TREs) across the UK, 

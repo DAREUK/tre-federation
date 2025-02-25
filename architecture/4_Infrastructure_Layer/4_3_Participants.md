@@ -2,7 +2,7 @@
 ----
 
 # Chapter 4 Federated architecture: infrastructure layer
-## Participants
+## 4.3 Participants
 
 Participants is the general name for the services connected together to form the SDRI Federation.
 
