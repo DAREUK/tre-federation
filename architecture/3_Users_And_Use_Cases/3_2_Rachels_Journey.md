@@ -99,11 +99,12 @@ Gill uses the three datasets and the “master index” from Iain to zip everyth
 Rachel gets access to her approved linked data inside the TRE, and she’s off!
 > Finally!
 
-Figure 3 illustrates the above narrative as a sequence diagram, showing interactions and data and metadata movement between the actors. Metadata objects are rectangular and datasets are “document shaped”. The colour scheme follows that of Section 4.1.2. Time runs from top to bottom.
+Figure 3 illustrates the above narrative as a sequence diagram, showing interactions and data and metadata movement between the actors. Metadata objects are rectangular and datasets are “document shaped”. The colour scheme follows that of 
+[Section 4.1.2](../4_Infrastructure_Layer/4_1_Introduction.md). Time runs from top to bottom.
 
-| _Figure 3. Rachel's Journey_ |
-| ---- | 
 | ![Figure 3](../assets/images/processes-Rachel.jpg) |
+| ---- | 
+| _Figure 3. Rachel's Journey_ |
 
 Rachel’s research journey, while synthetic, is rooted very much in current “data pooling” practice of sensitive data research in the UK. It helps us tease out the key drivers for the SDRI Federation, and in doing this we take two perspectives. The first perspective comes from potential users of the federation, from researchers like Rachel to system operators and data custodians. The second comes from the existing landscape of services across the UK [[1]](../References.md#ref-1) and how they currently interact with each other—Gill’s TRE and Iain’s indexing service, for example. In both cases we have distilled community interactions, desk research and expert knowledge into a series of user personas on the one hand and data usage patterns on the other. We use these two perspectives to identify the key requirements for the SDRI Federation.
 

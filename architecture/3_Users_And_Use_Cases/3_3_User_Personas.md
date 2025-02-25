@@ -23,6 +23,8 @@ Often it is easy to associate a particular persona with a single type of actor; 
  | Colin Iwobi, TRE admin and operator	 | I want to improve the user experience for our TRE users. | 	Supporting new software tools; slow safety approval process; interacting with frustrated users. | 	TRE Operator | 
  | Roy Bose, Federation operator | 	I want to support new and emerging analytical use-cases across the network. | 	Building & maintaining trust; keeping it simple & sustainable; making research more transparent. | 	Federation Operator | 
 
+> _Table 1. User personas._
+
 ### Federation actors and roles
 
 We can group the different “actors” in the last column of the table into three groups: Data

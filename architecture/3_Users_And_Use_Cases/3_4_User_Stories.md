@@ -12,7 +12,8 @@ development stages.
 
 Note that these requirements are by no means exhaustive. Nor are they detailed enough to
 begin software implementation. They are, however, sufficient to provide a framing set for this
-architecture. The “master list” of requirements can be found in Appendix D.
+architecture. The “master list” of requirements can be found in 
+[Appendix D](../7_Appendices/Appendix_D.md).
 
 Below we list the user stories derived from our personas, ordered by the “most popular”. We
 have incorporated a number of genuine, current cross-domain research projects as
