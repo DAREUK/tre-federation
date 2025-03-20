@@ -49,7 +49,7 @@ file:///C:/Users/RobBaxter/Box/Rob%20Baxter/DAREUK/architecture/4_Infrastructure
 
 In the TRE domain, Data Controllers take the role of Data Custodians, releasing data approved for research to projects via TRE Data Managers.
 
-### 4.2.4.TRE Operator (actor)
+### 4.2.4 TRE Operator (actor)
 
 #### 4.2.4.1 TRE Operator (role)
 
