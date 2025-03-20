@@ -42,7 +42,7 @@ Output Approvers are responsible for checking any and all research outputs to be
 #### 4.2.2.3 Job Approver (role)
 
 Job Approvers review computational jobs submitted by Researchers (in their roles as Job Submitters) for their safety and suitability to run inside the Job Approver’s TRE. 
-file:///C:/Users/RobBaxter/Box/Rob%20Baxter/DAREUK/architecture/4_Infrastructure_Layer/4_3_Participants.md
+
 ### 4.2.3 Data Controller (actor)
 
 #### 4.2.3.1 Data Custodian (role)
